@@ -340,18 +340,6 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		return false;
 		break;
 
-	case 'banredirect':
-	case 'br':
-		emit(socket, 'console', '/banredirect - This command is obsolete and has been removed.');
-		return false;
-		break;
-
-	case 'redirect':
-	case 'redir':
-		emit(socket, 'console', '/redirect - This command is obsolete and has been removed.');
-		return false;
-		break;
-
 	case 'kick':
 	case 'k':
 		// TODO: /kick will be removed in due course.
