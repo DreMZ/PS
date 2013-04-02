@@ -1,6 +1,16 @@
 exports.BattleFormats = {
 
 	// formats
+        NUv2: {
+                effectType: 'Format',
+                name: "NUv2",
+                mod: "NUv2",
+                challengeShow: true,
+                searchShow: true,
+                isTeambuilderFormat: true,
+                ruleset: ['RU'],
+                banlist: ['RU', 'Beheeyem', 'Braviary', 'Gardevoir', 'Musharna', 'Luxray', 'Roselia', 'Drizzle', 'Drought', 'Sand Rush + Torterra + Shell Smash']
+        },
 
 	randombattle: {
 		effectType: 'Format',
