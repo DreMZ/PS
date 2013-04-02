@@ -33,4 +33,5 @@ rotom:{num:479,species:"Rotom",types:["Electric","Ghost"],baseStats:{hp:50,atk:6
 rotomfan:{num:479,species:"Rotom",types:["Electric","Flying"],baseStats:{hp:50,atk:65,def:107,spa:105,spd:107,spe:86},abilities:{0:"Motor Drive",1:"Lightning Rod",DW:"Tinted Lens"},heightm:0.3,weightkg:0.3,color:"Black",eggGroups:["Amorphous"]},
 rotomfrost:{num:479,species:"Rotom",types:["Electric","Ice"],baseStats:{hp:50,atk:65,def:107,spa:105,spd:107,spe:86},abilities:{0:"Motor  Drive",1:"Lightning Rod",DW:"Snow Cloak"},heightm:0.3,weightkg:0.3,color:"Black",eggGroups:["Amorphous"]},
 wailord:{num:321,species:"Wailord",types:["Water"],baseStats:{hp:150,atk:95,def:50,spa:100,spd:45,spe:90},abilities:{0:"Drizzle",1:"Regenerator",DW:"Hydration"},heightm:14.5,weightkg:398.0,color:"Blue",prevo:"wailmer", evoLevel:40,eggGroups:["Field","Water 2"]},
+golurk:{num:623,species:"Golurk",types:["Ghost","Fighting"],gender:"N",baseStats:{hp:100,atk:140,def:80,spa:55,spd:80,spe:70},abilities:{0:"Iron Fist",1:"Scrappy",DW:"Intimidate"},heightm:2.8,weightkg:330,color:"Green",prevo:"golett",evoLevel:43,eggGroups:["Mineral"]},
 };
