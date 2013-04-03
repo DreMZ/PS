@@ -8,7 +8,7 @@ exports.BattleFormats = {
                 challengeShow: true,
                 searchShow: true,
                 isTeambuilderFormat: true,
-                ruleset: ['RU'],
+                ruleset: ['RU', 'Team Preview'],
                 banlist: ['RU', 'Beheeyem', 'Braviary', 'Gardevoir', 'Musharna', 'Luxray', 'Roselia', 'Drizzle', 'Drought', 'Sand Rush + Torterra + Shell Smash']
         },
          duskmodtwo: {
@@ -18,7 +18,7 @@ exports.BattleFormats = {
             challengeShow: true,
             searchShow: true,
             isTeambuilderFormat: true,
-            ruleset: ['OU'],
+            ruleset: ['OU', 'Team Preview'],
             banlist: ['Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed', 'Dialga', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-oh', 'Kyogre', 'Kyurem', 'Kyurem-Black', 'Kyurem-White', 'Lugia', 'Manaphy', 'Mewtwo', 'Palkia', 'Rayquaza', 'Reshiram', 'Shaymin-Sky', 'Zekrom', 'Soul Dew']
         },
 	randombattle: {
