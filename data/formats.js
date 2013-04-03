@@ -13,13 +13,13 @@ exports.BattleFormats = {
         },
         duskmod: {
         effectType: 'Format',
-        name: "duskmod"
-        mod: "duskmod"
+        name: "duskmod",
+        mod: "duskmod",
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['OU']
-        banlist: ['Uber', 'Kyurem', 'Kyurem-B', 'Regigigas', 'Soul Dew', 'Shadow Tag + Chandelure', 'Shadow Tag + Gothitelle']
+        ruleset: ['OU'],
+        banlist: ['Uber', 'Kyurem', 'Kyurem-B', 'Regigigas', 'Soul Dew', 'Shadow Tag']
     	},
          duskmodtwo: {
             effectType: 'Format',
