@@ -468,7 +468,7 @@ exports.BattleFormats = {
 	lv1000OU: {
 		effectType: 'Format',
 		section: 'Standard Singles Formats',
-		name: "Custom Game",
+		name: "lv1000OU",
 		rated: true,
 		challengeShow: true,
 		searchShow: true,
