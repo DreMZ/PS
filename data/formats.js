@@ -1,10 +1,10 @@
 exports.BattleFormats = {
 
 	// formats
-        NUv2: {
+        nuv2: {
                 effectType: 'Format',
-                name: "NUv2",
-                mod: "NUv2",
+                name: "nuv2",
+                mod: "nuv2",
                 challengeShow: true,
                 searchShow: true,
                 isTeambuilderFormat: true,
