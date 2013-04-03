@@ -38,4 +38,4 @@ tornadus:{num:641,species:"Tornadus",baseForme:"Incarnate",types:["Fighting","Fl
 ninetales:{num:38,species:"Ninetales",types:["Fire","Psychic"],genderRatio:{M:0.25,F:0.75},baseStats:{hp:90,atk:45,def:85,spa:120,spd:75,spe:108},abilities:{0:"Magic Bunce",1:"Telepathy",DW:"Drought"},heightm:1.1,weightkg:19.9,color:"Yellow",prevo:"vulpix",evoLevel:1,eggGroups:["Ground"]},
 politoed:{num:186,species:"Politoed",types:["Water","Grass"],baseStats:{hp:105,atk:30,def:90,spa:100,spd:105,spe:50},abilities:{0:"Chlorophyll",1:"Storm Drain",DW:"Drizzle"},heightm:1.1,weightkg:33.9,color:"Green",prevo:"poliwhirl",evoLevel:25,eggGroups:["Water 1"]},
 gliscor:{num:472,species:"Gliscor",types:["Ground","Flying"],baseStats:{hp:105,atk:100,def:130,spa:45,spd:60,spe:101},abilities:{0:"Intimidate",1:"Sand Stream",DW:"Poison Heal"},heightm:2,weightkg:42.5,color:"Purple",prevo:"gligar",evoLevel:2,eggGroups:["Bug"]},
-};
+},
