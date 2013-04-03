@@ -93,5 +93,78 @@ exports.BattleScripts = {
 			this.data.Learnsets.dodrio.learnset.extremespeed = ['5L0'];
 			
 			this.data.Learnsets.electrode.learnset.icebeam = ['5L0'];
+			
+			this.data.Learnsets.escavalier.learnset.superpower = ['5L0'];
+this.data.Learnsets.escavalier.learnset.stoneedge = ['5L0'];
+this.data.Learnsets.escavalier.learnset.meteormash = ['5L0'];
+this.data.Learnsets.escavalier.learnset.bullletpunch = ['5L0'];
+
+this.data.Learnsets.aerodactyl.learnset.bravebird = ['5L0'];
+this.data.Learnsets.aerodactyl.learnset.uturn = ['5L0'];
+this.data.Learnsets.aerodactyl.learnset.headsmash = ['5L0'];
+
+this.data.Learnsets.gligar.learnset.rockblast = ['5L0'];
+this.data.Learnsets.gligar.learnset.bravebird = ['5L0'];
+
+this.data.Learnsets.roselia.learnset.spore = ['5L0'];
+this.data.Learnsets.roselia.learnset.morningsun = ['5L0'];
+this.data.Learnsets.roselia.learnset.leafstorm = ['5L0'];
+this.data.Learnsets.roselia.learnset.taunt = ['5L0'];
+
+this.data.Learnsets.darmanitan.learnset.submission = ['5L0'];
+this.data.Learnsets.darmanitan.learnset.closecombat = ['5L0'];
+
+this.data.Learnsets.bisharp.learnset.trickroom = ['5L0'];
+
+this.data.Learnsets.braviary.learnset.submission = ['5L0'];
+this.data.Learnsets.braviary.learnset.submission = ['5L0'];
+
+this.data.Learnsets.gardevoir.learnset.lunardance = ['5L0'];
+this.data.Learnsets.gardevoir.learnset.aurasphere = ['5L0'];
+
+this.data.Learnsets.musharna.learnset.aurasphere = ['5L0'];
+
+this.data.Learnsets.emboar.learnset.doubleedge = ['5L0'];
+
+this.data.Learnsets.entei.learnset.flareblitz = ['5L0'];
+this.data.Learnsets.entei.learnset.extremespeed = ['5L0'];
+this.data.Learnsets.entei.learnset.earthquake = ['5L0'];
+
+this.data.Learnsets.sigilyph.learnset.quiverdance = ['5L0'];
+this.data.Learnsets.sigilyph.learnset.hurricane = ['5L0'];
+
+this.data.Learnsets.ambipom.learnset.bulletseed = ['5L0']
+this.data.Learnsets.ambipom.learnset.rockblast = ['5L0']
+this.data.Learnsets.ambipom.learnset.megapunch = ['5L0']
+this.data.Learnsets.ambipom.learnset.dualchop = ['5L0']
+this.data.Learnsets.ambipom.learnset.bite = ['5L0']
+this.data.Learnsets.ambipom.learnset.faintattack = ['5L0']
+
+this.data.Learnsets.arcanine.learnset.swordsdance = ['5L0']
+
+this.data.Learnsets.azumarill.learnset.iciclecrash = ['5L0']
+this.data.Learnsets.azumarill.learnset.ironhead = ['5L0']
+this.data.Learnsets.azumarill.learnset.rockslide = ['5L0']
+
+this.data.Learnsets.Beheeyem.learnset.lunardance = ['5L0']
+this.data.Learnsets.Beheeyem.learnset.thunder = ['5L0']
+
+this.data.Learnsets.tornadus.learnset.aurasphere = ['5L0']
+this.data.Learnsets.tornadus.learnset.closecombat = ['5L0']
+
+this.data.Learnsets.ninetales.learnset.aurasphere = ['5L0']
+this.data.Learnsets.ninetales.learnset.lunardance = ['5L0']
+this.data.Learnsets.ninetales.learnset.gigadrain = ['5L0']
+this.data.Learnsets.ninetales.learnset.focusblast = ['5L0']
+
+this.data.Learnsets.politoed.learnset.gigadrain = ['5L0']
+this.data.Learnsets.politoed.learnset.solarbeam = ['5L0']
+this.data.Learnsets.politoed.learnset.growth = ['5L0']
+this.data.Learnsets.politoed.learnset.wish = ['5L0']
+this.data.Learnsets.politoed.learnset.recover = ['5L0']
+
+this.data.Learnsets.gliscor.learnset.rockblast = ['5L0']
+this.data.Learnsets.gliscor.learnset.bravebird = ['5L0']
+this.data.Learnsets.gliscor.learnset.pursuit = ['5L0']
 		}
 };
