@@ -11,7 +11,6 @@ exports.BattleFormats = {
                 ruleset: ['RU'],
                 banlist: ['RU', 'Beheeyem', 'Braviary', 'Gardevoir', 'Musharna', 'Luxray', 'Roselia', 'Drizzle', 'Drought', 'Sand Rush + Torterra + Shell Smash']
         },
-	
 	DM2OU: {
 		effectType: 'Format',
 		name: "DM2",
@@ -22,7 +21,6 @@ exports.BattleFormats = {
 		ruleset: ['OU']
 		banlist: {'Kyurem', 'Kyurem-Black', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus-Normal', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed', 'Dialga', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-oh', 'Kyogre', 'Kyurem', 'Kyurem-Black', 'Kyurem-White', 'Lugia', 'Manaphy', 'Mewtwo', 'Palkia', 'Rayquaza', 'Reshiram', 'Shaymin-Sky', 'Zekrom', 'Soul Dew'}
 	},
-	
 	DMOU: {
 		effectType: 'Format',
 		name: "DM"
@@ -33,7 +31,6 @@ exports.BattleFormats = {
 		ruleset: ['OU']
 		banlist: {'Uber', 'Kyurem', 'Kyurem-B', 'Regigigas', 'Soul Dew', 'Shadow Tag + Chandelure', 'Shadow Tag + Gothitelle'}
 	},
-	
 	randombattle: {
 		effectType: 'Format',
 		name: "Random Battle",
