@@ -58,7 +58,7 @@ exports.BattleFormats = {
     	},
          duskmodtwo: {
             effectType: 'Format',
-            section: 'DM''
+            section: 'DM'
             name: "DM2",
             mod: "duskmodtwo",
             challengeShow: true,
