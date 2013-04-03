@@ -2,32 +2,37 @@ exports.BattleScripts = {
 	init: function() {
 		for (var i in this.data.Pokedex) {
 			
-			this.data.Pokedex[i].baseStats.hp = (150 - this.data.Pokedex[i].baseStats.hp);
+			var oldhp = this.data.Pokedex[i].baseStats.hp;
+			var oldatk = this.data.Pokedex[i].baseStats.atk;
+			var olddef = this.data.Pokedex[i].baseStats.def;
+			var oldspa = this.data.Pokedex[i].baseStats.spa;
+			var oldspd = this.data.Pokedex[i].baseStats.spd;
+			var oldspe = this.data.Pokedex[i].baseStats.spe;
+			
+			
+			this.data.Pokedex[i].baseStats.hp = 150 - oldhp;
+			this.data.Pokedex[i].baseStats.atk = 150 - oldatk;
+			this.data.Pokedex[i].baseStats.def = 150 - olddef;
+			this.data.Pokedex[i].baseStats.spa = 150 - oldspa;
+			this.data.Pokedex[i].baseStats.spd = 150 - oldspd;
+			this.data.Pokedex[i].baseStats.spe = 150 - oldspe;
+                        
+                        
                         if (this.data.Pokedex[i].baseStats.hp <= 10) ;{
 				this.data.Pokedex[i].baseStats.hp = 10;
 			}
-			
-			this.data.Pokedex[i].baseStats.atk = (150 - this.data.Pokedex[i].baseStats.atk);
                         if (this.data.Pokedex[i].baseStats.atk <= 10) ;{
 				this.data.Pokedex[i].baseStats.atk = 10;
 			}
-			
-			this.data.Pokedex[i].baseStats.def = (150 - this.data.Pokedex[i].baseStats.def);
                         if (this.data.Pokedex[i].baseStats.def <= 10) ;{
 				this.data.Pokedex[i].baseStats.def = 10;
 			}
-			
-			this.data.Pokedex[i].baseStats.spa = (150 - this.data.Pokedex[i].baseStats.spa);
                         if (this.data.Pokedex[i].baseStats.spa <= 10) ;{
 				this.data.Pokedex[i].baseStats.spa = 10;
 			}
-			
-			this.data.Pokedex[i].baseStats.spd = (150 - this.data.Pokedex[i].baseStats.spd);
                         if (this.data.Pokedex[i].baseStats.spd <= 10) ;{
 				this.data.Pokedex[i].baseStats.spd = 10;
 			}
-			
-			this.data.Pokedex[i].baseStats.spe = (150 - this.data.Pokedex[i].baseStats.spe);
                         if (this.data.Pokedex[i].baseStats.spe <= 10) ;{
 				this.data.Pokedex[i].baseStats.spe = 10;
 			}
