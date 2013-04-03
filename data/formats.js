@@ -25,7 +25,7 @@ exports.BattleFormats = {
         },
         uuv2: {
         effectType: 'Format',
-        section: 'v2 Recreation Project,
+        section: 'v2 Recreation Project',
         name: "uuv2",
         mod: "nuv2",
         challengeShow: true,
