@@ -1,8 +1,4 @@
-exports.BattleScripts = {
-        init: function() {
-                for (var i in this.data.FormatsData)
-                        this.data.FormatsData[i].dreamWorldRelease = true;
-                        
+exports.BattleScripts = {                        
 this.data.Learnsets.serperior.learnset.zenheadbutt = ['5L0'];
 this.data.Learnsets.serperior.learnset.psychoboost = ['5L0'];
 this.data.Learnsets.serperior.learnset.naturepower = ['5L0'];
