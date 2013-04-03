@@ -31,7 +31,7 @@
 		isSnatchable: true,
 		boosts: {
 				spa: 1,
-				spe: 1
+				spe: 1,
 		},
 		secondary: false,
 		target: "self",
