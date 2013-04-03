@@ -31,7 +31,7 @@ exports.BattleFormats = {
 		searchShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['OU']
-		banlist: {'Uber', 'Kyurem', 'Kyurem-B', 'Regigigas', 'Soul Dew'}
+		banlist: {'Uber', 'Kyurem', 'Kyurem-B', 'Regigigas', 'Soul Dew', 'Shadow Tag + Chandelure', 'Shadow Tag + Gothitelle'}
 	},
 	
 	randombattle: {
