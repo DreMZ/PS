@@ -17,7 +17,7 @@
     },
         
         "lunardance": {
-              inherit: true,
+              inherit: false,
                 accuracy: true,
                 basePower: 0,
                 isViable: true,
