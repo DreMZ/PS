@@ -43,7 +43,6 @@
         "airslash": {
               inherit: true,
                 basePower: 90,
-        }
-    },
+    }
 };  
  
