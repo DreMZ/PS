@@ -32,7 +32,7 @@ exports.BattleFormats = {
         searchShow: true,
         isTeambuilderFormat: true,
         ruleset: ['OU', 'Team Preview', 'Sleep Clause'],
-        banlist: ['OU, 'BL']
+        banlist: ['OU', 'BL']
         },
         ouv2: {
         effectType: 'Format',
