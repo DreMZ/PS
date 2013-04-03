@@ -34,7 +34,7 @@ exports.BattleFormats = {
         reversemeta: {
         effectType: 'Format',
         name: "Reverse! Meta",
-        mod: "revers",
+        mod: "reverse",
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
