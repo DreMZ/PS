@@ -11,6 +11,16 @@ exports.BattleFormats = {
                 ruleset: ['RU', 'Team Preview'],
                 banlist: ['RU', 'Beheeyem', 'Braviary', 'Gardevoir', 'Musharna', 'Luxray', 'Roselia', 'Drizzle', 'Drought', 'Sand Rush + Torterra + Shell Smash']
         },
+        duskmod: {
+        effectType: 'Format',
+        name: "duskmod"
+        mod: "duskmod"
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['OU']
+        banlist: ['Uber', 'Kyurem', 'Kyurem-B', 'Regigigas', 'Soul Dew', 'Shadow Tag + Chandelure', 'Shadow Tag + Gothitelle']
+    	},
          duskmodtwo: {
             effectType: 'Format',
             name: "duskmodtwo",
