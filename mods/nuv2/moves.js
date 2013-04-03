@@ -16,7 +16,7 @@
         }
     },
         
-          lunardance: {
+          "lunardance": {
 		num: 461,
 		accuracy: true,
 		basePower: 0,
@@ -43,6 +43,7 @@
         "airslash": {
               inherit: true,
                 basePower: 90,
-    }
+        }
+    },
 };  
  
