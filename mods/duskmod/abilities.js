@@ -158,7 +158,8 @@ exports.BattleAbilities = {
 		shortDesc: "When this Pokemon is poisoned, its physical attacks do 1.5x damage.",
 		onModifyStats: function(stats, pokemon) {
 			if (pokemon.status === 'psn' || pokemon.status === 'tox') {
-				stats.atk *= 1.5;
+				stats.def *= 1.3,
+				stats.spd *= 1.3;
 			}
 		},
 		onDamage: function(damage, target, source, effect) {
@@ -214,6 +215,20 @@ exports.BattleAbilities = {
 		name: "Battle Armor",
 		rating: 1,
 		num: 4
+	},
+	"shellarmor": {//REWORK: Resisted hits do 2/3 damage
+		desc: "Not very effective hits do two thirds damage to this pokemon.",
+		shortDesc: "Resisted hits do 2/3 damage to this pokemon.",
+		onSourceBasePower: function(basePower, attacker, defender, move) {
+			if (this.getEffectiveness(move.type, defender) < 0) {
+				this.debug('Shell Armor Weaken');
+				return basePower*2/3;
+			}
+		},
+		id: "shellarmor",
+		name: "Shell Armor",
+		rating: 1,
+		num: 75
 	},
 	"poisontouch": {//50% chance to badly poison
 		desc: "The contact-based attacks from a Pokemon with Poison Touch have a 30% chance of poisoning the target.",
