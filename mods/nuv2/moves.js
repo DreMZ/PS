@@ -30,8 +30,8 @@
                 priority: 0,
                 isSnatchable: true,
                 boosts: {
-                        spa: 1,
-                        spe: 1
+                                spa: 1,
+                                spe: 1
                 },
                 secondary: false,
                 target: "self",
