@@ -36,7 +36,6 @@
 		secondary: false,
 		target: "self",
 		type: "Psychic"
-        }
     },
         
         
