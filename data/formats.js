@@ -78,6 +78,17 @@ exports.BattleFormats = {
         ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
         banlist: ['Eviolite', 'Illegal']
         },
+        tiershift: {
+        effectType: 'Format',
+        section: 'Other Metagames',
+        name: "Tier Shift OU",
+        mod: 'tiershift',
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+        banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
+        },
 	randombattle: {
 		effectType: 'Format',
 		section: 'Standard Singles Formats',
