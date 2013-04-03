@@ -12,6 +12,7 @@ exports.BattleFormats = {
                 ruleset: ['RU', 'Team Preview', 'Sleep Clause'],
                 banlist: ['RU', 'Beheeyem', 'Braviary', 'Gardevoir', 'Musharna', 'Luxray', 'Roselia', 'Drizzle', 'Drought', 'Sand Rush + Torterra + Shell Smash']
         },
+        ruv2: {
         effectType: 'Format',
         section: 'NUV2 abd friends',
         name: "ruv2",
@@ -22,6 +23,7 @@ exports.BattleFormats = {
         ruleset: ['UU', 'Team Preview', 'Sleep Clause'],
         banlist: ['UU', 'BL2']
         },
+        uuv2: {
         effectType: 'Format',
         section: 'NUV2 abd friends',
         name: "uuv2",
@@ -32,6 +34,7 @@ exports.BattleFormats = {
         ruleset: ['OU', 'Team Preview', 'Sleep Clause'],
         banlist: ['OU, 'BL']
         },
+        ouv2: {
         effectType: 'Format',
         section: 'NUV2 abd friends',
         name: "ouv2",
