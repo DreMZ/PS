@@ -3,7 +3,7 @@ exports.BattleFormats = {
 	// formats
         nuv2: {
                 effectType: 'Format',
-                section: 'NUV2 abd friends',
+                section: 'v2 Recreation Project',
                 name: "nuv2",
                 mod: "nuv2",
                 challengeShow: true,
@@ -14,7 +14,7 @@ exports.BattleFormats = {
         },
         ruv2: {
         effectType: 'Format',
-        section: 'NUV2 abd friends',
+        section: 'v2 Recreation Project',
         name: "ruv2",
         mod: "nuv2",
         challengeShow: true,
@@ -25,7 +25,7 @@ exports.BattleFormats = {
         },
         uuv2: {
         effectType: 'Format',
-        section: 'NUV2 abd friends',
+        section: 'v2 Recreation Project,
         name: "uuv2",
         mod: "nuv2",
         challengeShow: true,
@@ -36,7 +36,7 @@ exports.BattleFormats = {
         },
         ouv2: {
         effectType: 'Format',
-        section: 'NUV2 abd friends',
+        section: 'v2 Recreation Project',
         name: "ouv2",
         mod: "nuv2",
         challengeShow: true,
@@ -47,7 +47,8 @@ exports.BattleFormats = {
         },
         duskmod: {
         effectType: 'Format',
-        name: "duskmod",
+        section: 'DM',
+        name: "DM",
         mod: "duskmod",
         challengeShow: true,
         searchShow: true,
@@ -57,7 +58,8 @@ exports.BattleFormats = {
     	},
          duskmodtwo: {
             effectType: 'Format',
-            name: "duskmodtwo",
+            section: 'DM''
+            name: "DM2",
             mod: "duskmodtwo",
             challengeShow: true,
             searchShow: true,
@@ -67,13 +69,47 @@ exports.BattleFormats = {
         },
         reversemeta: {
         effectType: 'Format',
-        name: "Reverse! Meta",
+        section: 'Other Metagames',
+        name: "Reverse!",
         mod: "reverse",
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
         ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
         banlist: ['Eviolite', 'Illegal']
+    	},
+    	duplexmons: {
+    	effectType: 'Format',
+    	section: 'Other Metagames',
+    	name: "Duplexmons",
+    	mod: 'duplexmons',
+    	challengeShow: true,
+    	searchShow: true,
+    	isTeambuilderFormat: true,
+    	ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+    	banlist: ['Uber', 'Soul Dew']
+    	},
+    	tiershift: {
+    	effectType: 'Format',
+    	section: 'Other Metagames',
+    	name: "Tier Shift OU",
+    	mod: 'tiershift',
+    	challengeShow: true,
+    	searchShow: true,
+    	isTeambuilderFormat: true,
+    	ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+    	banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
+    	},
+    	randomtypingsOU: {
+    	effectType: 'Format',
+    	section: 'Other Metagames',
+    	name: "Random Typings OU",
+    	mod: 'randomtypings',
+    	challengeShow: true,
+    	searchShow: true,
+    	isTeambuilderFormat: true,
+    	ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+    	banlist: ['Uber', 'Soul Dew', 'Heatran']
     	},
 	randombattle: {
 		effectType: 'Format',
