@@ -78,27 +78,6 @@ exports.BattleFormats = {
         ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
         banlist: ['Eviolite', 'Illegal']
         },
-        duplexmons: {
-        effectType: 'Format',
-        section: 'Other Metagames',
-        name: "Duplexmons",
-        mod: 'duplexmons',
-        challengeShow: true,
-        searchShow: true,
-        isTeambuilderFormat: true,
-        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
-        banlist: ['Uber', 'Soul Dew']
-        },
-        tiershift: {
-        effectType: 'Format',
-        section: 'Other Metagames',
-        name: "Tier Shift OU",
-        mod: 'tiershift',
-        challengeShow: true,
-        searchShow: true,
-        isTeambuilderFormat: true,
-        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
-        banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
 	randombattle: {
 		effectType: 'Format',
 		name: "Random Battle",
