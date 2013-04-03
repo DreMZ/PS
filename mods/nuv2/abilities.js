@@ -27,4 +27,5 @@
                         if (effect && effect.effectType === 'Move') {
                                 this.boost({spa:1}, source);
         }
-    };
+    },
+};
