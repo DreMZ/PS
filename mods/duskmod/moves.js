@@ -352,22 +352,6 @@ exports.BattleMovedex = {
                 target: "self",
                 type: "Psychic"
         },
-        gust: {
-                inherit: true,
-                accuracy: true,
-                basePower: 0,
-                category: "Status",
-                type: "Normal",
-                target: "self",
-                onHit: function(pokemon) {
-                        var sideConditions = {spikes:1, toxicspikes:1, stealthrock:1};
-                        for (var i in sideConditions) {
-                                if (pokemon.hp && pokemon.side.removeSideCondition(i)) {
-                                        this.add('-sideend', pokemon.side, this.getEffect(i).name, '[from] move: Rapid Spin', '[of] '+pokemon);
-                                }
-                        }
-                }
-        },
         rage: {
                 inherit: true,
                 basePower: 100,
@@ -542,7 +526,7 @@ exports.BattleMovedex = {
                 onHit: false,
                 onModifyMove: function(move, source, target) {
                         if (source.hasType('Grass')) {
-                            move.basePower = 120;
+                            move.basePower = 100;
                             }
 				}
         },
