@@ -1,3 +1,4 @@
+    exports.BattleMovedex = {    
         "waterpulse": {
               inherit: true,
                 basePower: 80
