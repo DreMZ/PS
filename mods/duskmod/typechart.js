@@ -327,7 +327,7 @@ exports.BattleTypeChart = {
       "Ground": 1,
       "Ice": 0,
       "Normal": 2,
-      "Poison": 0,//poison 1x
+      "Poison": 2,//poison 1x
       "Psychic": 0,
       "Rock": 0,
       "Steel": 1,
@@ -374,7 +374,7 @@ exports.BattleTypeChart = {
       "Ground": 0,
       "Ice": 2,
       "Normal": 0,
-      "Poison": 0,
+      "Poison": 1,
       "Psychic": 0,
       "Rock": 0,
       "Steel": 2,
