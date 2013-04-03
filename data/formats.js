@@ -67,6 +67,38 @@ exports.BattleFormats = {
             ruleset: ['OU', 'Team Preview', 'Sleep Clause'],
             banlist: ['Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed', 'Dialga', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-oh', 'Kyogre', 'Kyurem', 'Kyurem-Black', 'Kyurem-White', 'Lugia', 'Manaphy', 'Mewtwo', 'Palkia', 'Rayquaza', 'Reshiram', 'Shaymin-Sky', 'Zekrom', 'Soul Dew']
         },
+        reversemeta: {
+        effectType: 'Format',
+        section: 'Other Metagames',
+        name: "Reverse!",
+        mod: "reverse",
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+        banlist: ['Eviolite', 'Illegal']
+        },
+        duplexmons: {
+        effectType: 'Format',
+        section: 'Other Metagames',
+        name: "Duplexmons",
+        mod: 'duplexmons',
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+        banlist: ['Uber', 'Soul Dew']
+        },
+        tiershift: {
+        effectType: 'Format',
+        section: 'Other Metagames',
+        name: "Tier Shift OU",
+        mod: 'tiershift',
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+        banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
 	randombattle: {
 		effectType: 'Format',
 		name: "Random Battle",
