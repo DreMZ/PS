@@ -501,15 +501,15 @@ var User = (function () {
 				else if (userid === "growlithe") avatar = 1007;
 				else if (userid === "v4") avatar = 94;
 				else if (userid === "hawntah") avatar = 161;
-				else if (userid === "greatsage") avatar = 1005;
-				else if (userid === "bojangles") avatar = 1006;
+				else if (userid === "Nøllaŋ¹º¹") avatar = 1005;
+				else if (userid === "Oiawesome") avatar = 1006;
 				else if (userid === "dtc") avatar = 30;
-				else if (userid === "hugendugen") avatar = 1009;
+				else if (userid === "PokermansCoach") avatar = 1009;
 				else if (userid === "fatecrashers") avatar = 18;
 				else if (userid === "exeggutor") avatar = 1010;
 				else if (userid === "mjb") avatar = 1011;
-				else if (userid === "marty") avatar = 1012;
-				else if (userid === "theimmortal") avatar = 1013;
+				else if (userid === "DreMZ") avatar = 1012;
+				else if (userid === "Jewzilla") avatar = 1013;
 
 				if (usergroups[userid]) {
 					group = usergroups[userid].substr(0,1);
