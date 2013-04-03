@@ -219,30 +219,6 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
-	//oucurrent: {
-	//	effectType: 'Format',
-	//	name: "OU (current)",
-	//	challengeDefault: true,
-	//	rated: true,
-	//	challengeShow: true,
-	//	searchShow: true,
-	//	isTeambuilderFormat: true,
-	//	ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-	//	banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
-	//},
-	oususpecttest: {
-		effectType: 'Format',
-		name: "OU (suspect test)",
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		teambuilderFormat: 'ou',
-		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-		//  banlist: [
-			// 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Blaziken', 'Darkrai', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Speed', 'Dialga', 'Excadrill', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Kyogre', 'Lugia', 'Manaphy', 'Mewtwo', 'Palkia', 'Rayquaza', 'Reshiram', 'Shaymin-Sky', 'Thundurus', 'Zekrom', 'Kyurem-White', 'Drizzle ++ Swift Swim', 'Soul Dew'
-		// ] 
-		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew', 'Deoxys-Defense']
-	},
 	cap: {
 		effectType: 'Format',
 		name: "CAP",
@@ -452,66 +428,6 @@ exports.BattleFormats = {
 		maxLevel: 1000,
 		// no restrictions, for serious
 		ruleset: []
-	},
-	gen4hackmons: {
-		mod: 'gen4',
-		effectType: 'Format',
-		name: "[Gen 4] Hackmons",
-		challengeShow: true,
-		ruleset: ['Pokemon'],
-		banlist: []
-	},
-	gen4customgame: {
-		mod: 'gen4',
-		effectType: 'Format',
-		name: "[Gen 4] Custom Game",
-		challengeShow: true,
-		canUseRandomTeam: true,
-		debug: true,
-		ruleset: []
-	},
-	gen3hackmons: {
-		mod: 'gen3',
-		effectType: 'Format',
-		name: "[Gen 3] Hackmons",
-		challengeShow: true,
-		ruleset: ['Pokemon'],
-		banlist: []
-	},
-	gen3customgame: {
-		mod: 'gen3',
-		effectType: 'Format',
-		name: "[Gen 3] Custom Game",
-		challengeShow: true,
-		ruleset: []
-	},
-	gennextnextou: {
-		mod: 'gennext',
-		effectType: 'Format',
-		name: "[Gen NEXT] NEXT-OU",
-		challengeShow: true,
-		ruleset: ['Pokemon', 'Standard NEXT', 'Team Preview'],
-		banlist: ['Uber']
-	},
-	standardnext: {
-		effectType: 'Banlist',
-		ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause'],
-		banlist: ['Unreleased', 'Illegal', 'Double Team'],
-		validateSet: function(set) {
-			// limit one of each move in Standard
-			var moves = [];
-			if (set.moves) {
-				var hasMove = {};
-				for (var i=0; i<set.moves.length; i++) {
-					var move = this.getMove(set.moves[i]);
-					var moveid = move.id;
-					if (hasMove[moveid]) continue;
-					hasMove[moveid] = true;
-					moves.push(set.moves[i]);
-				}
-			}
-			set.moves = moves;
-		}
 	},
 	doublesvgc2013dev: {
 		effectType: 'Format',
