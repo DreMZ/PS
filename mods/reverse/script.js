@@ -10,12 +10,12 @@ exports.BattleScripts = {
 			var oldspe = this.data.Pokedex[i].baseStats.spe;
 			
 			
-			this.data.Pokedex[i].baseStats.hp = 150 - oldhp;
-			this.data.Pokedex[i].baseStats.atk = 150 - oldatk;
-			this.data.Pokedex[i].baseStats.def = 150 - olddef;
-			this.data.Pokedex[i].baseStats.spa = 150 - oldspa;
-			this.data.Pokedex[i].baseStats.spd = 150 - oldspd;
-			this.data.Pokedex[i].baseStats.spe = 150 - oldspe;
+			this.data.Pokedex[i].baseStats.hp = (150 - oldhp);
+			this.data.Pokedex[i].baseStats.atk = (150 - oldatk);
+			this.data.Pokedex[i].baseStats.def = (150 - olddef);
+			this.data.Pokedex[i].baseStats.spa = (150 - oldspa);
+			this.data.Pokedex[i].baseStats.spd = (150 - oldspd);
+			this.data.Pokedex[i].baseStats.spe = (150 - oldspe);
                         
                         
                         if (this.data.Pokedex[i].baseStats.hp <= 10) ;{
