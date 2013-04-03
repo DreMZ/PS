@@ -20,3 +20,4 @@ jumpluff:{num:189,species:"Jumpluff",types:["Grass","Flying"],baseStats:{hp:70,a
 solrock:{num:338,species:"Solrock",types:["Rock","Psychic"],gender:"N",baseStats:{hp:80,atk:105,def:105,spa:60,spd:75,spe:85},abilities:{0:"Regenerator",1:"Leaf Guard",DW:"Magic Bounce"},heightm:1.2,weightkg:154,color:"Red",eggGroups:["Mineral"]},
 dodrio:{num:85,species:"Dodrio",types:["Normal","Flying"],baseStats:{hp:65,atk:110,def:60,spa:35,spd:65,spe:105},abilities:{0:"Reckless",1:"Quick Feet",DW:"Gluttony"},heightm:1.8,weightkg:85.2,color:"Brown",prevo:"doduo",evoLevel:31,eggGroups:["Flying"]},
 electrode:{num:101,species:"Electrode",types:["Electric"],gender:"N",baseStats:{hp:65,atk:65,def:60,spa:105,spd:65,spe:150},abilities:{0:"Lightningrod",1:"Volt Absorb",DW:"Telepathy"},heightm:1.2,weightkg:66.6,color:"Red",prevo:"voltorb",evoLevel:30,eggGroups:["Mineral"]},
+},
