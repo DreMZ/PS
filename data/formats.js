@@ -447,7 +447,7 @@ exports.BattleFormats = {
 		},
 		maxForcedLevel: 50,
 		ruleset: ['Pokemon', 'Team Preview VGC', 'Species Clause', 'Item Clause'],
-		banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+		banlist: ['Unreleased', 'Illegal', 'Soul Dew',
 			'Mewtwo',
 			'Mew',
 			'Lugia',
@@ -479,13 +479,11 @@ exports.BattleFormats = {
 	lv1000OU: {
 		effectType: 'Format',
 		section: 'Standard Singles Formats',
-		name: "lv1000OU",
-		rated: true,
+		name: "lv1000 OU",
 		challengeShow: true,
 		searchShow: true,
 		isTeambuilderFormat: true,
 		maxLevel: 1000,
-		// no restrictions, for serious
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
 	},
