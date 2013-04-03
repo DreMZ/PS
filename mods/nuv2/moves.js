@@ -36,6 +36,6 @@
               inherit: true,
                 basePower: 90,
         }
-    };
-    
+    },
+};  
  
