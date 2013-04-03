@@ -3,6 +3,7 @@ exports.BattleFormats = {
 	// formats
         nuv2: {
                 effectType: 'Format',
+                section: 'NUV2 abd friends',
                 name: "nuv2",
                 mod: "nuv2",
                 challengeShow: true,
@@ -10,6 +11,36 @@ exports.BattleFormats = {
                 isTeambuilderFormat: true,
                 ruleset: ['RU', 'Team Preview', 'Sleep Clause'],
                 banlist: ['RU', 'Beheeyem', 'Braviary', 'Gardevoir', 'Musharna', 'Luxray', 'Roselia', 'Drizzle', 'Drought', 'Sand Rush + Torterra + Shell Smash']
+        },
+        effectType: 'Format',
+        section: 'NUV2 abd friends',
+        name: "ruv2",
+        mod: "nuv2",
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['UU', 'Team Preview', 'Sleep Clause'],
+        banlist: ['UU', 'BL2']
+        },
+        effectType: 'Format',
+        section: 'NUV2 abd friends',
+        name: "uuv2",
+        mod: "nuv2",
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['OU', 'Team Preview', 'Sleep Clause'],
+        banlist: ['OU, 'BL']
+        },
+        effectType: 'Format',
+        section: 'NUV2 abd friends',
+        name: "ouv2",
+        mod: "nuv2",
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+        banlist: ['Uber', 'Soul Dew']
         },
         duskmod: {
         effectType: 'Format',
