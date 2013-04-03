@@ -36,7 +36,8 @@
               inherit: true,
                 basePower: 90,
         }
-    },
+    };
+    
   exports.BattleAbilities = {
         "leafguard": {
                inherit: true,
@@ -66,4 +67,4 @@
                         if (effect && effect.effectType === 'Move') {
                                 this.boost({spa:1}, source);
         }
-    },
+    };
