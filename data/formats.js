@@ -18,7 +18,7 @@ exports.BattleFormats = {
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['OU'],
+        ruleset: ['OU', 'Team Preview'],
         banlist: ['Uber', 'Kyurem', 'Kyurem-B', 'Regigigas', 'Soul Dew', 'Shadow Tag']
     	},
          duskmodtwo: {
