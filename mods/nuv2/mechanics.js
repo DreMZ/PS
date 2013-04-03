@@ -36,7 +36,7 @@
                 basePower: 90,
         }
     },
-  
+  exports.BattleAbilities = {
         "leafguard": {
                inherit: true,
                 onResidualOrder: 5,
