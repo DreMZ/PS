@@ -2,7 +2,6 @@
         "waterpulse": {
               inherit: true,
                 basePower: 80
-        }
     },
         
         "submission": {
@@ -41,7 +40,6 @@
         "airslash": {
               inherit: true,
                 basePower: 90,
-        }
     },
 };  
  
