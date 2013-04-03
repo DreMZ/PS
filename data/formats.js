@@ -80,6 +80,7 @@ exports.BattleFormats = {
         },
 	randombattle: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Random Battle",
 		team: 'random',
 		canUseRandomTeam: true,
@@ -91,6 +92,7 @@ exports.BattleFormats = {
 	},
 	unratedrandombattle: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Unrated Random Battle",
 		team: 'random',
 		canUseRandomTeam: true,
@@ -227,19 +229,9 @@ exports.BattleFormats = {
 		},
 		ruleset: ['PotD', 'Pokemon', 'Sleep Clause']
 	},*/
-	seasonalvalentineventure: {
-		effectType: 'Format',
-		name: "[Seasonal] Valentine Venture",
-		team: 'randomSeasonalVV',
-		gameType: 'doubles',
-		canUseRandomTeam: true,
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		ruleset: ['PotD', 'Pokemon', 'Sleep Clause']
-	},
 	challengecup: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Challenge Cup",
 		team: 'randomCC',
 		canUseRandomTeam: true,
@@ -250,6 +242,7 @@ exports.BattleFormats = {
 	},
 	challengecup1vs1: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Challenge Cup 1-vs-1",
 		team: 'randomCC',
 		canUseRandomTeam: true,
@@ -267,6 +260,7 @@ exports.BattleFormats = {
 	},
 	ou: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "OU",
 		challengeDefault: true,
 		rated: true,
@@ -278,6 +272,7 @@ exports.BattleFormats = {
 	},
 	cap: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "CAP",
 		rated: true,
 		challengeShow: true,
@@ -297,6 +292,7 @@ exports.BattleFormats = {
 	// },
 	ubers: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Ubers",
 		rated: true,
 		challengeShow: true,
@@ -317,6 +313,7 @@ exports.BattleFormats = {
 	// },
 	uu: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "UU",
 		rated: true,
 		challengeShow: true,
@@ -336,6 +333,7 @@ exports.BattleFormats = {
 	// },
 	ru: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "RU",
 		rated: true,
 		challengeShow: true,
@@ -365,6 +363,7 @@ exports.BattleFormats = {
 	// },
 	nu: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "NU",
 		rated: true,
 		challengeShow: true,
@@ -375,6 +374,7 @@ exports.BattleFormats = {
 	},
 	lc: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "LC",
 		maxLevel: 5,
 		rated: true,
@@ -384,52 +384,9 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
 		banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
 	},
-	lcubers: {
-		effectType: 'Format',
-		name: "LC Ubers",
-		maxLevel: 5,
-		challengeShow: true,
-		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
-		banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Soul Dew']
-	},
-	lcuu: {
-		effectType: 'Format',
-		name: "LC UU",
-		maxLevel: 5,
-		challengeShow: true,
-		ruleset: ['LC'],
-		banlist: ['Abra', 'Aipom', 'Archen', 'Aron', 'Axew', 'Bronzor', 'Chinchou', 'Clamperl', 'Cottonee', 'Cranidos', 'Croagunk', 'Diglett', 'Dratini', 'Drifloon', 'Drilbur', 'Dwebble', 'Elekid', 'Ferroseed', 'Foongus', 'Frillish', 'Gastly', 'Hippopotas', 'Houndour', 'Larvesta', 'Lileep', 'Magnemite', 'Meowth', 'Mienfoo', 'Misdreavus', 'Munchlax', 'Murkrow', 'Onix', 'Pawniard', 'Ponyta', 'Porygon', 'Riolu', 'Sandshrew', 'Scraggy', 'Shellder', 'Snover', 'Staryu', 'Taillow', 'Tentacool', 'Timburr', 'Tirtouga']
-	},
-	dwubers: {
-		effectType: 'Format',
-		name: "DW Ubers",
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		isDWtier: true,
-		ruleset: ['Pokemon', 'Standard DW', 'Team Preview'],
-		banlist: []
-	},
-	dwou: {
-		effectType: 'Format',
-		name: "DW OU",
-		rated: true,
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard DW', 'Team Preview'],
-		banlist: ['Drizzle ++ Swift Swim', 'Soul Dew', 'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Blaziken', 'Deoxys', 'Deoxys-Attack', 'Dialga', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Lugia', 'Mewtwo', 'Palkia', 'Rayquaza', 'Reshiram', 'Shaymin-Sky', 'Zekrom']
-	},
-	dwuu: {
-		effectType: 'Format',
-		name: "DW UU",
-		challengeShow: true,
-		ruleset: ['DW OU'],
-		banlist: ['Chandelure', 'Genesect', 'Tyranitar', 'Dragonite', 'Breloom', 'Ferrothorn', 'Politoed', 'Gliscor', 'Ninetales', 'Scizor', 'Excadrill', 'Keldeo', 'Infernape', 'Venusaur', 'Heatran', 'Rotom-Wash', 'Garchomp', 'Serperior', 'Gengar', 'Volcarona', 'Forretress', 'Conkeldurr', 'Espeon', 'Cloyster', 'Skarmory', 'Starmie', 'Salamence', 'Gyarados', 'Zapdos', 'Jirachi', 'Latios', 'Tentacruel', 'Haxorus', 'Landorus', 'Mamoswine', 'Charizard', 'Lucario', 'Jellicent', 'Blissey', 'Terrakion', 'Heracross', 'Metagross', 'Ditto', 'Hydreigon', 'Thundurus', 'Alakazam', 'Deoxys-Speed', 'Latias', 'Gastrodon', 'Togekiss', 'Donphan', 'Bronzong', 'Manaphy']
-	},
 	hackmons: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Hackmons",
 		rated: true,
 		challengeShow: true,
@@ -440,6 +397,7 @@ exports.BattleFormats = {
 	},
 	balancedhackmons: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Balanced Hackmons",
 		rated: true,
 		challengeShow: true,
@@ -448,15 +406,9 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'OHKO Clause'],
 		banlist: ['Wonder Guard', 'Pure Power', 'Huge Power', 'Shadow Tag', 'Arena Trap']
 	},
-	pu: {
-		effectType: 'Format',
-		name: "PU",
-		challengeShow: true,
-		ruleset: ['NU'],
-		banlist: ["Charizard", "Wartortle", "Kadabra", "Golem", "Haunter", "Exeggutor", "Weezing", "Kangaskhan", "Pinsir", "Lapras", "Ampharos", "Misdreavus", "Piloswine", "Miltank", "Ludicolo", "Swellow", "Gardevoir", "Ninjask", "Torkoal", "Cacturne", "Altaria", "Armaldo", "Gorebyss", "Regirock", "Regice", "Bastiodon", "Floatzel", "Drifblim", "Skuntank", "Lickilicky", "Probopass", "Rotom-Fan", "Samurott", "Musharna", "Gurdurr", "Sawk", "Carracosta", "Garbodor", "Sawsbuck", "Alomomola", "Golurk", "Braviary", "Articuno", "Glaceon", "Rotom-Frost", "Electabuzz", "Electrode", "Marowak", "Liepard", "Tangela", "Jumpluff", "Eelektross", "Ditto", "Seismitoad", "Zangoose", "Roselia", "Stoutland"]
-	},
 	glitchmons: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Glitchmons",
 		rated: true,
 		challengeShow: true,
@@ -466,8 +418,69 @@ exports.BattleFormats = {
 		banlist: ['Illegal', 'Unreleased'],
 		mimicGlitch: true
 	},
+	vgcsingles: {
+		effectType: 'Format',
+		section: 'Standard Singles Formats',
+		name: "VGC Singles",
+		rated: true,
+		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
+		debug: true,
+			onBegin: function() {
+			this.debug('cutting down to 3');
+			this.p1.pokemon = this.p1.pokemon.slice(0,3);
+			this.p1.pokemonLeft = this.p1.pokemon.length;
+			this.p2.pokemon = this.p2.pokemon.slice(0,3);
+			this.p2.pokemonLeft = this.p2.pokemon.length;
+		},
+		maxForcedLevel: 50,
+		ruleset: ['Pokemon', 'Team Preview VGC', 'Species Clause', 'Item Clause'],
+		banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew',
+			'Mewtwo',
+			'Mew',
+			'Lugia',
+			'Ho-Oh',
+			'Celebi',
+			'Kyogre',
+			'Groudon',
+			'Rayquaza',
+			'Jirachi',
+			'Deoxys', 'Deoxys-Attack', 'Deoxys-Speed', 'Deoxys-Defense',
+			'Chatot',
+			'Dialga',
+			'Palkia',
+			'Giratina', 'Giratina-Origin',
+			'Phione',
+			'Manaphy',
+			'Darkrai',
+			'Shaymin', 'Shaymin-Sky',
+			'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+			'Victini',
+			'Reshiram',
+			'Zekrom',
+			'Kyurem', 'Kyurem-Black', 'Kyurem-White',
+			'Keldeo', 'Keldeo-Resolute',
+			'Meloetta',
+			'Genesect'
+		]
+	},
+	lv1000OU: {
+		effectType: 'Format',
+		section: 'Standard Singles Formats',
+		name: "Custom Game",
+		rated: true,
+		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
+		maxLevel: 1000,
+		// no restrictions, for serious
+		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+		banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
+	},
 	customgame: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Custom Game",
 		challengeShow: true,
 		canUseRandomTeam: true,
@@ -478,6 +491,7 @@ exports.BattleFormats = {
 	},
 	customgamenoteampreview: {
 		effectType: 'Format',
+		section: 'Standard Singles Formats',
 		name: "Custom Game (no Team Preview)",
 		challengeShow: true,
 		canUseRandomTeam: true,
