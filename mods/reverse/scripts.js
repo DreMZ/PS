@@ -18,24 +18,18 @@ exports.BattleScripts = {
 			this.data.Pokedex[i].baseStats.spe = (150 - oldspe);
                         
                         
-                        if (oldhp > 140) ;{
-				this.data.Pokedex[i].baseStats.hp = 10;
-			}
-                        if (oldatk > 140) ;{
-				this.data.Pokedex[i].baseStats.atk = 10;
-			}
-                        if (olddef > 140) ;{
-				this.data.Pokedex[i].baseStats.def = 10;
-			}
-                        if (oldspa > 140) ;{
-				this.data.Pokedex[i].baseStats.spa = 10;
-			}
-                        if (oldspd > 140) ;{
-				this.data.Pokedex[i].baseStats.spd = 10;
-			}
-                        if (oldspe > 140) ;{
-				this.data.Pokedex[i].baseStats.spe = 10;
-			}
+                        if (oldhp > 140) ;
+			this.data.Pokedex[i].baseStats.hp = 10;
+                        if (oldatk > 140) ;
+			this.data.Pokedex[i].baseStats.atk = 10;
+                        if (olddef > 140) ;
+			this.data.Pokedex[i].baseStats.def = 10;
+			if (oldspa > 140) ;
+			this.data.Pokedex[i].baseStats.spa = 10;
+			if (oldspd > 140) ;
+			this.data.Pokedex[i].baseStats.spd = 10;
+                        if (oldspe > 140) ;
+			this.data.Pokedex[i].baseStats.spe = 10;
 		}
 	}
 };
