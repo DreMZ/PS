@@ -476,17 +476,6 @@ exports.BattleFormats = {
 			'Genesect'
 		]
 	},
-	lv1000OU: {
-		effectType: 'Format',
-		section: 'Standard Singles Formats',
-		name: "lv1000 OU",
-		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		maxLevel: 1000,
-		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-		banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
-	},
 	customgame: {
 		effectType: 'Format',
 		section: 'Standard Singles Formats',
