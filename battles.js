@@ -2110,8 +2110,6 @@ var Battle = (function() {
 		this.add('gametype', this.gameType);
 
 		var format = this.getFormat();
-		Tools.mod(format.mod).getBanlistTable(format); // fill in format ruleset
-
 		this.add('tier', format.name);
 		if (this.rated) {
 			this.add('rated');
