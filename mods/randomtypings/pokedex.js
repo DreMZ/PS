@@ -289,4 +289,3 @@ genesectshock:{num:649,species:"Genesect-Shock",baseSpecies:"Genesect",forme:"Sh
 genesectburn:{num:649,species:"Genesect-Burn",baseSpecies:"Genesect",forme:"Burn",formeLetter:"B",types:["Grass","Ground"],gender:"N",baseStats:{hp:71,atk:120,def:95,spa:120,spd:95,spe:99},abilities:{0:"Download"},heightm:1.5,weightkg:82.5,color:"Purple",eggGroups:["No  Eggs"]},
 genesectchill:{num:649,species:"Genesect-Chill",baseSpecies:"Genesect",forme:"Chill",formeLetter:"C",types:["Grass","Ground"],gender:"N",baseStats:{hp:71,atk:120,def:95,spa:120,spd:95,spe:99},abilities:{0:"Download"},heightm:1.5,weightkg:82.5,color:"Purple",eggGroups:["No  Eggs"]}
 };
- 
