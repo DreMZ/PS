@@ -412,5 +412,16 @@ this.data.Learnsets.deoxysspeed.learnset.rockslide = ['5M'];
 this.data.Learnsets.deoxysspeed.learnset.stoneedge = ['5M'];
 
 
+this.data.Learnsets.rotomwash.learnset.flashcannon = ['5L0'];
+
+this.data.Learnsets.lilligant.learnset.darkpulse = ['5L0'];
+this.data.Learnsets.lilligant.learnset.shadowball = ['5L0'];
+
+this.data.Learnsets.terrakion.learnset.waterfall = ['5L0'];
+this.data.Learnsets.terrakion.learnset.flareblitz = ['5L0'];
+
+
+
+
 		}
 };
