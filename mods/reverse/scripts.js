@@ -31,7 +31,8 @@ exports.BattleScripts = {
                         if (oldspe > 140) ;
 			this.data.Pokedex[i].baseStats.spe = 10;*/
 		}
-	        this.data.Pokedex[40].baseStats.hp = (10);
+	}
+		this.data.Pokedex[40].baseStats.hp = (10);
 	        
 	        this.data.Pokedex[91].baseStats.def = (10);
 	        
@@ -127,5 +128,4 @@ exports.BattleScripts = {
 	        this.data.Pokedex[643].baseStats.spa = (10);
 	        
 	        this.data.Pokedex[644].baseStats.atk = (10);
-	}
 };
