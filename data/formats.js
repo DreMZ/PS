@@ -82,7 +82,7 @@ exports.BattleFormats = {
         effectType: 'Format',
         section: 'Other Metagames',
         name: "Tier Shift OU",
-        mod: 'tiershift',
+        mod: "tiershift",
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
