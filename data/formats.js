@@ -78,17 +78,6 @@ exports.BattleFormats = {
         ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
         banlist: ['Eviolite', 'Illegal']
         },
-        //randomtypings: {
-        //effectType: 'Format',
-        //section: 'Other Metagames',
-        //name: "random typings",
-        //mod: "randomtypings",
-        //challengeShow: true,
-        //searchShow: true,
-        //isTeambuilderFormat: true,
-        //ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
-        //banlist: ['Uber', 'Illegal']
-        //},
         tiershift: {
         effectType: 'Format',
         section: 'Other Metagames',
@@ -99,6 +88,28 @@ exports.BattleFormats = {
         isTeambuilderFormat: true,
         ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
         banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
+        },
+                randomtypingsOU: {
+        effectType: 'Format',
+        section: 'Other Metagames',
+        name: "Random Typings OU",
+        mod: 'randomtypings',
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+        banlist: ['Uber', 'Soul Dew', 'Heatran']
+        },
+        randomtypingsUbers: {
+        effectType: 'Format',
+        section: 'Other Metagames',
+        name: "Random Typings Uber",
+        mod: 'randomtypings',
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+        banlist: []
         },
 	randombattle: {
 		effectType: 'Format',
@@ -511,7 +522,7 @@ exports.BattleFormats = {
 	},
 	doublesvgc2013dev: {
 		effectType: 'Format',
-		section: 'doubles',
+		section: 'Standard Doubles Formats',
 		gameType: 'doubles',
 		name: "Doubles VGC 2013 (dev)",
 		rated: true,
@@ -559,7 +570,7 @@ exports.BattleFormats = {
 	},
 	smogondoubles: {
 		effectType: 'Format',
-		section: 'doubles',
+		section: 'Standard Doubles Formats',
 		gameType: 'doubles',
 		name: "Smogon Doubles",
 		challengeShow: true,
@@ -586,7 +597,7 @@ exports.BattleFormats = {
 	},
 	doublesrandombattledev: {
 		effectType: 'Format',
-		section: 'doubles',
+		section: 'Standard Doubles Formats',
 		gameType: 'doubles',
 		name: "Doubles Random Battle (dev)",
 		team: 'random',
@@ -598,7 +609,7 @@ exports.BattleFormats = {
 	},
 	doubleschallengecup: {
 		effectType: 'Format',
-		section: 'doubles',
+		section: 'Standard Doubles Formats',
 		gameType: 'doubles',
 		name: "Doubles Challenge Cup",
 		team: 'randomCC',
@@ -610,7 +621,7 @@ exports.BattleFormats = {
 	},
 	doublescustomgame: {
 		effectType: 'Format',
-		section: 'doubles',
+		section: 'Standard Doubles Formats',
 		gameType: 'doubles',
 		name: "Doubles Custom Game",
 		challengeShow: true,
