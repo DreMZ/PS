@@ -76,7 +76,7 @@ exports.BattleFormats = {
         searchShow: true,
         isTeambuilderFormat: true,
         ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
-        banlist: ['Eviolite', 'Illegal']
+        banlist: ['Eviolite', 'Illegal', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed']
         },
         tiershift: {
         effectType: 'Format',
