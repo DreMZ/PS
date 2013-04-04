@@ -446,7 +446,7 @@ exports.BattleFormats = {
 			this.p2.pokemonLeft = this.p2.pokemon.length;
 		},
 		maxForcedLevel: 50,
-		ruleset: ['Pokemon', 'Team Preview VGC', 'Species Clause', 'Item Clause'],
+		ruleset: ['Pokemon', 'Standard', 'Team Preview VGC', 'Item Clause'],
 		banlist: ['Unreleased', 'Illegal', 'Soul Dew',
 			'Mewtwo',
 			'Mew',
