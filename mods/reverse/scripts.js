@@ -90,5 +90,42 @@ exports.BattleScripts = {
 	        
 	        this.data.Pokedex[384].baseStats.atk = (10);
 	        this.data.Pokedex[384].baseStats.spa = (10);
+	        
+	        this.data.Pokedex[409].baseStats.atk = (10);
+	        
+	        this.data.Pokedex[411].baseStats.def = (10);
+	        
+	        this.data.Pokedex[426].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[464].baseStats.atk = (10);
+	        
+	        this.data.Pokedex[476].baseStats.def = (10);
+	        this.data.Pokedex[476].baseStats.spd = (10);
+	        
+	        this.data.Pokedex[483].baseStats.spa = (10);
+	        
+	        this.data.Pokedex[484].baseStats.spa = (10);
+	        
+	        this.data.Pokedex[486].baseStats.atk = (10);
+	        
+	        this.data.Pokedex[487].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[534].baseStats.atk = (10);
+	        
+	        this.data.Pokedex[555].baseStats.atk = (10);
+	        
+	        this.data.Pokedex[563].baseStats.def = (10);
+	        
+	        this.data.Pokedex[594].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[609].baseStats.spa = (10);
+	        
+	        this.data.Pokedex[612].baseStats.atk = (10);
+	        
+	        this.data.Pokedex[617].baseStats.spe = (10);
+	        
+	        this.data.Pokedex[643].baseStats.spa = (10);
+	        
+	        this.data.Pokedex[644].baseStats.atk = (10);
 	}
 };
