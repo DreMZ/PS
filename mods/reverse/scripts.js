@@ -31,5 +31,64 @@ exports.BattleScripts = {
                         if (oldspe > 140) ;
 			this.data.Pokedex[i].baseStats.spe = 10;*/
 		}
+	        this.data.Pokedex[40].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[91].baseStats.def = (10);
+	        
+	        this.data.Pokedex[95].baseStats.def = (10);
+	        
+	        this.data.Pokedex[113].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[143].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[150].baseStats.spa = (10);
+	        
+	        this.data.Pokedex[202].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[205].baseStats.def = (10);
+	        
+	        this.data.Pokedex[208].baseStats.def = (10);
+	        
+	        this.data.Pokedex[213].baseStats.def = (10);
+	        this.data.Pokedex[213].baseStats.spd = (10);
+	        
+	        this.data.Pokedex[226].baseStats.spd = (10);
+	        
+	        this.data.Pokedex[227].baseStats.def = (10);
+	        
+	        this.data.Pokedex[242].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[249].baseStats.spd = (10);
+	        
+	        this.data.Pokedex[250].baseStats.spd = (10);
+	        
+	        this.data.Pokedex[289].baseStats.hp = (10);
+	        this.data.Pokedex[289].baseStats.atk= (10);
+	        
+	        this.data.Pokedex[291].baseStats.spe = (10);
+	        
+	        this.data.Pokedex[297].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[305].baseStats.def = (10);
+	        
+	        this.data.Pokedex[306].baseStats.def = (10);
+	        
+	        this.data.Pokedex[321].baseStats.hp = (10);
+	        
+	        this.data.Pokedex[324].baseStats.def = (10);
+	        
+	        this.data.Pokedex[377].baseStats.def = (10);
+	        
+	        this.data.Pokedex[378].baseStats.spd = (10);
+	        
+	        this.data.Pokedex[379].baseStats.def = (10);
+	        this.data.Pokedex[379].baseStats.spd = (10);
+	        
+	        this.data.Pokedex[382].baseStats.spa = (10);
+	        
+	        this.data.Pokedex[383].baseStats.atk = (10);
+	        
+	        this.data.Pokedex[384].baseStats.atk = (10);
+	        this.data.Pokedex[384].baseStats.spa = (10);
 	}
 };
