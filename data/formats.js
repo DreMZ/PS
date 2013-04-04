@@ -76,7 +76,7 @@ exports.BattleFormats = {
         searchShow: true,
         isTeambuilderFormat: true,
         ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
-        banlist: ['Eviolite', 'Illegal', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed']
+        banlist: ['Eviolite', 'Illegal', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed', 'Kyurem', 'Kyurem-B', 'Kyurem-W', 'Landorus', 'Landorus-I', 'Thundurus', 'Thundurus-I', 'Zen Mode']
         },
         tiershift: {
         effectType: 'Format',
