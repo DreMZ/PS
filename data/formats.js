@@ -913,7 +913,7 @@ exports.BattleFormats = {
 		}
 	},
 	humorclause: {
-		effectType: 'Banlist',
+		effectType: 'Rule',
 		name: 'Humor Clause',
 		banlist: [],
 		onStart: function() {
