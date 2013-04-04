@@ -411,6 +411,7 @@ this.data.Learnsets.deoxysspeed.learnset.powergem = ['5L0'];
 this.data.Learnsets.deoxysspeed.learnset.rockslide = ['5M'];
 this.data.Learnsets.deoxysspeed.learnset.stoneedge = ['5M'];
 
+this.data.Learnsets.bronzong.learnset.shadowclaw = ['5L0'];
 
 this.data.Learnsets.rotomwash.learnset.flashcannon = ['5L0'];
 
