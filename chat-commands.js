@@ -1067,7 +1067,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 	case '!rule':
 		showOrBroadcastStart(user, cmd, room, socket, message);
 		showOrBroadcast(user, cmd, room, socket,
-			'<div class="infobox">1: All high ranked users must kick, mute, rename, or ban for legitimate causes 2: Be respectful, and kind to others 3: No excessive swearing, it is best we be civilized, no? 4: Follow all PS rules:<br />' +
+			'<div class="infobox">1: All users capable of actions that follow must kick, mute, rename, or ban for legitimate causes 2: Be respectful, and kind to others 3: No excessive swearing, it is best we be civilized, no? 4: Follow all PS rules:<br />' +
 			'- <a href="http://pokemonshowdown.com/rules" target="_blank">Rules</a><br />' +
 			'</div>');
 		return false;
