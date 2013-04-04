@@ -32,6 +32,9 @@ exports.BattleScripts = {
 			this.data.Pokedex[i].baseStats.spe = 10;*/
 		}
 	}
+};
+
+exports.BattleScripts = {
 		this.data.Pokedex[40].baseStats.hp = (10);
 	        
 	        this.data.Pokedex[91].baseStats.def = (10);
