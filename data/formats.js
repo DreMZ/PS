@@ -78,6 +78,17 @@ exports.BattleFormats = {
         ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
         banlist: ['Eviolite', 'Illegal']
         },
+        //randomtypings: {
+        //effectType: 'Format',
+        //section: 'Other Metagames',
+        //name: "random typings",
+        //mod: "randomtypings",
+        //challengeShow: true,
+        //searchShow: true,
+        //isTeambuilderFormat: true,
+        //ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
+        //banlist: ['Uber', 'Illegal']
+        //},
         tiershift: {
         effectType: 'Format',
         section: 'Other Metagames',
