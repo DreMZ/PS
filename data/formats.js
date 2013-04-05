@@ -89,28 +89,6 @@ exports.BattleFormats = {
         ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
         },
-                randomtypingsOU: {
-        effectType: 'Format',
-        section: 'Other Metagames',
-        name: "Random Typings OU",
-        mod: 'randomtypings',
-        challengeShow: true,
-        searchShow: true,
-        isTeambuilderFormat: true,
-        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-        banlist: ['Uber', 'Soul Dew']
-        },
-        randomtypingsUbers: {
-        effectType: 'Format',
-        section: 'Other Metagames',
-        name: "Random Typings Uber",
-        mod: 'randomtypings',
-        challengeShow: true,
-        searchShow: true,
-        isTeambuilderFormat: true,
-        ruleset: ['Pokemon', 'Standard', 'Team Preview'],
-        banlist: []
-        },
 	randombattle: {
 		effectType: 'Format',
 		section: 'Standard Singles Formats',
