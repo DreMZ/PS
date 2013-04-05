@@ -108,13 +108,15 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		}
 		break;
 
-	case 'doabarrelrollNøllaŋ¹º¹':
-	case '!doabarrelrollNøllaŋ¹º¹':
-		showOrBroadcastStart(user, cmd, room, socket, message);
-		showOrBroadcast(user, cmd, room, socket,
-			'<div class="infobox">' +
-			Nøllaŋ¹º¹ did a barrel role+
-			'</div>');
+		case 'doabarrelroll':
+		if (!user.can('potd')) {
+			emit(socket, 'console', '/potd - Access denied.');
+			return false;
+		}
+		config.potd = target;
+		Simulator.eval('config.potd = \''+toId(target)+'\'');
+		if (target) {
+			rooms.lobby.addRaw('<div class="broadcast-blue"><b> '+target+ did a barrel roll!'</div>');
 		return false;
 		break;
 		
