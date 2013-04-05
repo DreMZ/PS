@@ -498,11 +498,11 @@ var User = (function () {
 				else if (userid === "sharktamer") avatar = 7;
 				else if (userid === "pokermanscoach") avatar = 1004;
 				else if (userid === "n") avatar = 209;
-				else if (userid === "theburgerking99") avatar = 1007;
+				else if (userid === "happythetaco") avatar = 1007;
 				else if (userid === "v4") avatar = 94;
 				else if (userid === "hawntah") avatar = 161;
 				else if (userid === "oiawesome") avatar = 1005;
-				else if (userid === "happythetaco") avatar = 1006;
+				else if (userid === "theburgerking99") avatar = 1006;
 				else if (userid === "dtc") avatar = 30;
 				else if (userid === "dusk209") avatar = 1009;
 				else if (userid === "fatecrashers") avatar = 18;
