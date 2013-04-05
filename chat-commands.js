@@ -340,29 +340,6 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		return false;
 		break;
 
-	case 'murder':
-	case 'kill':
-		if (!target) return parseCommand(user, '?', cmd, room, socket);
-		var targets = splitTarget(target);
-		var targetUser = targets[0];
-		if (!targetUser) {
-			emit(socket, 'console', 'User '+targets[2]+' not found.');
-			return false;
-		}
-		if (!user.can('ban', targetUser)) {
-			emit(socket, 'console', '/ban - Access denied.');
-			return false;
-		}
-
-		logModCommand(room,""+targetUser.name+" was murdered by "+user.name+"." + (targets[1] ? " (" + targets[1] + ")" : ""));
-		targetUser.emit('message', user.name+' has murdered you.  If you feel that your murder was unjustified you can <a href="http://www.smogon.com/forums/announcement.php?f=126&a=204" target="_blank">appeal the ban</a>. '+targets[1]);
-		var alts = targetUser.getAlts();
-		if (alts.length) logModCommand(room,""+targetUser.name+"'s alts were also murdered: "+alts.join(", "));
-
-		targetUser.ban();
-		return false;
-		break;
-		
 	case 'kick':
 	case 'k':
 		// TODO: /kick will be removed in due course.
@@ -400,6 +377,47 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 
 		logModCommand(room,''+targetUser.name+' was barrel rolled to the Rules page by '+user.name+'' + (targets[1] ? " (" + targets[1] + ")" : ""));
 		targetUser.emit('console', {evalRulesRedirect: 1});
+		return false;
+		
+	var targets = splitTarget(target);
+		var targetUser = targets[0];
+		var targetName = targets[1] || (targetUser && targetUser.name);
+		if (!user.can('namelock', targetUser)) {
+			emit(socket, 'console', '/namelock - access denied.');
+			return false;
+		} else if (targetUser && targetName) {
+			var oldname = targetUser.name;
+			var targetId = toUserid(targetName);
+			var userOfName = Users.users[targetId];
+			var isAlt = false;
+			if (userOfName) {
+				for(var altName in userOfName.getAlts()) {
+					var altUser = Users.users[toUserid(altName)];
+					if (!altUser) continue;
+					if (targetId === altUser.userid) {
+						isAlt = true;
+						break;
+					}
+					for (var prevName in altUser.prevNames) {
+						if (targetId === toUserid(prevName)) {
+							isAlt = true;
+							break;
+						}
+					}
+					if (isAlt) break;
+				}
+			}
+			if (!userOfName || oldname === targetName || isAlt) {
+				targetUser.nameLock(targetName, true);
+			}
+			if (targetUser.nameLocked()) {
+				logModCommand(room,user.name+" barrel-rolled "+oldname+" to "+targetName+".");
+				return false;
+			}
+			emit(socket, 'console', oldname+" can't be barrel-rolled to "+targetName+".");
+		} else {
+			emit(socket, 'console', "User "+targets[2]+" not found.");
+		}
 		return false;
 		break;
 
@@ -1898,7 +1916,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		}
 		if (target === "@" || target === 'kick' || target === 'k') {
 			matched = true;
-			emit(socket, 'console', '/kick OR /k [username] - Quickly kicks a user by redirecting them to the Pokemon Showdown Rules page. Requires: @ & ~');
+			emit(socket, 'console', '/kick OR /k [username] - Quickly kicks a user by redirecting them to http://www.youtube.com/watch?v=jd3R9KksKhI: @ & ~');
 		}
 		if (target === '@' || target === 'unban') {
 			matched = true;
