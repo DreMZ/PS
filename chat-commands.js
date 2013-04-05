@@ -108,6 +108,16 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		}
 		break;
 
+	case 'doabarrelrollNøllaŋ¹º¹':
+	case '!doabarrelrollNøllaŋ¹º¹':
+		showOrBroadcastStart(user, cmd, room, socket, message);
+		showOrBroadcast(user, cmd, room, socket,
+			'<div class="infobox">' +
+			Nøllaŋ¹º¹ did a barrel role+
+			'</div>');
+		return false;
+		break;
+		
 	case 'namelock':
 	case 'nl':
 		if(!target) {
