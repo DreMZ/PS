@@ -1,50 +1,7 @@
 exports.BattleFormats = {
 
 	// formats
-        nuv2: {
-                effectType: 'Format',
-                section: 'v2 Recreation Project',
-                name: "nuv2",
-                mod: 'nuv2',
-                challengeShow: true,
-                searchShow: true,
-                isTeambuilderFormat: true,
-                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-                banlist: ['RU', 'Beheeyem', 'Braviary', 'Gardevoir', 'Musharna', 'Luxray', 'Roselia', 'Drizzle', 'Drought', 'Sand Rush + Torterra + Shell Smash']
-        },
-        ruv2: {
-        effectType: 'Format',
-        section: 'v2 Recreation Project',
-        name: "ruv2",
-        mod: 'nuv2',
-        challengeShow: true,
-        searchShow: true,
-        isTeambuilderFormat: true,
-        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-        banlist: ['UU', 'BL2']
-        },
-        uuv2: {
-        effectType: 'Format',
-        section: 'v2 Recreation Project',
-        name: "uuv2",
-        mod: 'nuv2',
-        challengeShow: true,
-        searchShow: true,
-        isTeambuilderFormat: true,
-        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-        banlist: ['OU', 'BL']
-        },
-        ouv2: {
-        effectType: 'Format',
-        section: 'v2 Recreation Project',
-        name: "ouv2",
-        mod: 'nuv2',
-        challengeShow: true,
-        searchShow: true,
-        isTeambuilderFormat: true,
-        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-        banlist: ['Uber', 'Soul Dew']
-        },
+        
         duskmod: {
         effectType: 'Format',
         section: 'DM',
@@ -88,6 +45,28 @@ exports.BattleFormats = {
         isTeambuilderFormat: true,
         ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
+        },
+        randomtypingsOU: {
+        effectType: 'Format',
+        section: 'Other Metagames',
+        name: "Random Typings OU",
+        mod: 'randomtypings',
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+        banlist: ['Uber', 'Soul Dew']
+        },
+        randomtypingsUbers: {
+        effectType: 'Format',
+        section: 'Other Metagames',
+        name: "Random Typings Uber",
+        mod: 'randomtypings',
+        challengeShow: true,
+        searchShow: true,
+        isTeambuilderFormat: true,
+        ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+        banlist: []
         },
 	randombattle: {
 		effectType: 'Format',
