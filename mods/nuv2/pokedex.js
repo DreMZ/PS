@@ -121,5 +121,5 @@ munchlax: {
                 inherit:true,
                 abilities:{0:"Regenerator",1:"Thick Fat",DW:"Gluttony"}
                 baseStats:{hp:120,atk:80,def:60,spa:20,spd:105,spe:40}
-        },
+        }
 };
