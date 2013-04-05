@@ -1045,7 +1045,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 			'% <b>Driver</b> - The above, and they can also mute users and run tournaments<br />' +
 			'@ <b>Moderator</b> - The above, and they can ban users and check for alts<br />' +
 			'&amp; <b>Leader</b> - The above, and they can promote moderators and force ties<br />'+
-			'~ <b>Administrator</b> - They can do anything, like change what this message says'+
+			'~ <b>Administrator</b> - They can do anything, like change what this message says THIS MESSAGE HAS BEEN RAPED BY OI AWESOME'+
 			'</div>');
 		return false;
 		break;
