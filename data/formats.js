@@ -9,7 +9,7 @@ exports.BattleFormats = {
                 challengeShow: true,
                 searchShow: true,
                 isTeambuilderFormat: true,
-                ruleset: ['RU', 'Team Preview', 'Sleep Clause', 'Humor Clause'],
+                ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
                 banlist: ['RU', 'Beheeyem', 'Braviary', 'Gardevoir', 'Musharna', 'Luxray', 'Roselia', 'Drizzle', 'Drought', 'Sand Rush + Torterra + Shell Smash']
         },
         ruv2: {
@@ -20,7 +20,7 @@ exports.BattleFormats = {
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['UU', 'Team Preview', 'Sleep Clause', 'Humor Clause'],
+        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         banlist: ['UU', 'BL2']
         },
         uuv2: {
@@ -31,7 +31,7 @@ exports.BattleFormats = {
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['OU', 'Team Preview', 'Sleep Clause', 'Humor Clause'],
+        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         banlist: ['OU', 'BL']
         },
         ouv2: {
@@ -42,7 +42,7 @@ exports.BattleFormats = {
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview', 'Humor Clause'],
+        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         banlist: ['Uber', 'Soul Dew']
         },
         duskmod: {
@@ -53,8 +53,8 @@ exports.BattleFormats = {
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['OU', 'Team Preview', 'Sleep Clause', 'Humor Clause'],
-        banlist: ['Uber', 'Kyurem', 'Kyurem-B', 'Regigigas', 'Soul Dew', 'Shadow Tag']
+        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview', 'Shadow Tag Clause'],
+        banlist: ['Uber', 'Kyurem', 'Kyurem-B', 'Regigigas', 'Soul Dew']
     	},
          duskmodtwo: {
             effectType: 'Format',
@@ -64,7 +64,7 @@ exports.BattleFormats = {
             challengeShow: true,
             searchShow: true,
             isTeambuilderFormat: true,
-            ruleset: ['OU', 'Team Preview', 'Sleep Clause', 'Humor Clause'],
+            ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
             banlist: ['Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed', 'Dialga', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-oh', 'Kyogre', 'Kyurem', 'Kyurem-Black', 'Kyurem-White', 'Lugia', 'Manaphy', 'Mewtwo', 'Palkia', 'Rayquaza', 'Reshiram', 'Shaymin-Sky', 'Zekrom', 'Soul Dew']
         },
         reversemeta: {
@@ -75,7 +75,7 @@ exports.BattleFormats = {
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview', 'Humor Clause'],
+        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
         banlist: ['Eviolite', 'Illegal']
         },
         tiershift: {
@@ -86,7 +86,7 @@ exports.BattleFormats = {
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview', 'Humor Clause'],
+        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
         banlist: ['Uber', 'Soul Dew', 'Drizzle ++ Swift Swim']
         },
                 randomtypingsOU: {
@@ -97,8 +97,8 @@ exports.BattleFormats = {
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview', 'Humor Clause'],
-        banlist: ['Uber', 'Soul Dew', 'Heatran']
+        ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+        banlist: ['Uber', 'Soul Dew']
         },
         randomtypingsUbers: {
         effectType: 'Format',
@@ -108,7 +108,7 @@ exports.BattleFormats = {
         challengeShow: true,
         searchShow: true,
         isTeambuilderFormat: true,
-        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview', 'Humor Clause'],
+        ruleset: ['Pokemon', 'Standard', 'Team Preview'],
         banlist: []
         },
 	randombattle: {
@@ -910,14 +910,6 @@ exports.BattleFormats = {
 		banlist: ['Shadow Tag'],
 		onStart: function() {
 			this.add('rule', 'Shadow Tag Clause: The ability Shadow Tag is banned');
-		}
-	},
-	humorclause: {
-		effectType: 'Rule',
-		name: 'Humor Clause',
-		banlist: [],
-		onStart: function() {
-			this.add('rule', 'Humor Clause: All players must laugh their butts off until their dying day, unless they want ~Nøllaŋ¹º¹ to make them die a most painful death');
 		}
 	},
 	evasionmovesclause: {
