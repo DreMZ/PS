@@ -55,7 +55,6 @@ exports.BattleScripts = {
 			
 			this.data.Learnsets.whirlipede.learnset.rapidspin = ['5L0'];
 			this.data.Learnsets.whirlipede.learnset.earthquake = ['5L0'];
-			this.data.Learnsets.whirlipede.learnset.extremespeed = ['5L0'];
 			this.data.Learnsets.whirlipede.learnset.hornleech = ['5L0'];
 			this.data.Learnsets.whirlipede.learnset.gunkshot = ['5L0'];
 			this.data.Learnsets.whirlipede.learnset.encore = ['5L0'];
@@ -93,6 +92,17 @@ exports.BattleScripts = {
 			this.data.Learnsets.dodrio.learnset.extremespeed = ['5L0'];
 			
 			this.data.Learnsets.electrode.learnset.icebeam = ['5L0'];
+			
+			this.data.Learnsets.scolipede.learnset.rapidspin = ['5L0'];
+			this.data.Learnsets.scolipede.learnset.earthquake = ['5L0'];
+			this.data.Learnsets.scolipede.learnset.hornleech = ['5L0'];
+			this.data.Learnsets.scolipede.learnset.gunkshot = ['5L0'];
+			this.data.Learnsets.scolipede.learnset.encore = ['5L0'];
+			this.data.Learnsets.scolipede.learnset.glare = ['5L0'];
+			
+			this.data.Learnsets.primeape.learnset.machpunch = ['5L0'];
+			
+			this.data.Learnsets.munchlax.learnset.slackoff = ['5L0'];
 			
 			this.data.Learnsets.escavalier.learnset.superpower = ['5L0'];
 			this.data.Learnsets.escavalier.learnset.stoneedge = ['5L0'];
