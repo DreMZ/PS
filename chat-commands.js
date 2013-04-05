@@ -108,18 +108,6 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		}
 		break;
 
-		case 'doabarrelroll':
-		if (!user.can('doabarrelroll')) {
-			emit(socket, 'console', '/doabarrelroll - Access denied.');
-			return false;
-		}
-		config.potd = target;
-		Simulator.eval('config.doabarrelroll = \''+toId(target)+'\'');
-		if (target) {
-			rooms.lobby.addRaw('<div class="broadcast-blue"><b> '+target+ did a barrel roll!'</div>');
-		return false;
-		break;
-		
 	case 'namelock':
 	case 'nl':
 		if(!target) {
