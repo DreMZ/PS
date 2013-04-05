@@ -504,11 +504,11 @@ var User = (function () {
 				else if (userid === "happythetaco") avatar = 1005;
 				else if (userid === "oiawesome") avatar = 1006;
 				else if (userid === "dtc") avatar = 30;
-				else if (userid === "nollan101") avatar = 1009;
+				else if (userid === "dusk209") avatar = 1009;
 				else if (userid === "fatecrashers") avatar = 18;
 				else if (userid === "dremz") avatar = 1010;
 				else if (userid === "arceus11") avatar = 1011;
-				else if (userid === "mjb") avatar = 1012;
+				else if (userid === "nollan101") avatar = 1012;
 				else if (userid === "jewzilla") avatar = 1013;
 
 				if (usergroups[userid]) {
