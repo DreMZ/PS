@@ -360,6 +360,26 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		return false;
 		break;
 
+	case 'barrelroll':
+	case 'br':
+		// TODO: /kick will be removed in due course.
+		if (!target) return parseCommand(user, '?', cmd, room, socket);
+		var targets = splitTarget(target);
+		var targetUser = targets[0];
+		if (!targetUser || !targetUser.connected) {
+			emit(socket, 'console', 'User '+targets[2]+' not found.');
+			return false;
+		}
+		if (!user.can('redirect', targetUser)) {
+			emit(socket, 'console', '/redirect - Access denied.');
+			return false;
+		}
+
+		logModCommand(room,''+targetUser.name+' was barrel rolled to the Rules page by '+user.name+'' + (targets[1] ? " (" + targets[1] + ")" : ""));
+		targetUser.emit('console', {evalRulesRedirect: 1});
+		return false;
+		break;
+
 	case 'unban':
 		if (!target) return parseCommand(user, '?', cmd, room, socket);
 		if (!user.can('ban')) {
