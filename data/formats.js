@@ -973,7 +973,7 @@ exports.BattleFormats = {
 		challengeShow: true,
 		ruleset: []
 	},
-	gen1customgame: {
+	/*gen1customgame: {
 		name: "[Gen 1] Custom Game",
 		section: "Past Generations",
 
@@ -982,7 +982,7 @@ exports.BattleFormats = {
 		challengeShow: true,
 		debug: true,
 		ruleset: ['Pokemon']
-	},
+	},*/
 
 
 	standardnext: {
