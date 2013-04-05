@@ -496,7 +496,7 @@ var User = (function () {
 				else if (userid === "aeo1") avatar = 167;
 				else if (userid === "aeo2") avatar = 166;
 				else if (userid === "sharktamer") avatar = 7;
-				else if (userid === "nollan101") avatar = 1004;
+				else if (userid === "pokermanscoach") avatar = 1004;
 				else if (userid === "n") avatar = 209;
 				else if (userid === "theburgerking99") avatar = 1007;
 				else if (userid === "v4") avatar = 94;
@@ -504,7 +504,7 @@ var User = (function () {
 				else if (userid === "happythetaco") avatar = 1005;
 				else if (userid === "oiawesome") avatar = 1006;
 				else if (userid === "dtc") avatar = 30;
-				else if (userid === "pokermanscoach") avatar = 1009;
+				else if (userid === "nollan101") avatar = 1009;
 				else if (userid === "fatecrashers") avatar = 18;
 				else if (userid === "dremz") avatar = 1010;
 				else if (userid === "arceus11") avatar = 1011;
