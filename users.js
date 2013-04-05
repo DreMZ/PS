@@ -501,14 +501,14 @@ var User = (function () {
 				else if (userid === "theburgerking99") avatar = 1007;
 				else if (userid === "v4") avatar = 94;
 				else if (userid === "hawntah") avatar = 161;
-				else if (userid === "nøllaŋ¹º¹") avatar = 1005;
+				else if (userid === "nollan101") avatar = 1005;
 				else if (userid === "oiawesome") avatar = 1006;
 				else if (userid === "dtc") avatar = 30;
 				else if (userid === "pokermanscoach") avatar = 1009;
 				else if (userid === "fatecrashers") avatar = 18;
 				else if (userid === "exeggutor") avatar = 1010;
-				else if (userid === "mjb") avatar = 1011;
-				else if (userid === "dremz") avatar = 1012;
+				else if (userid === "dremz") avatar = 1011;
+				else if (userid === "mjb") avatar = 1012;
 				else if (userid === "jewzilla") avatar = 1013;
 
 				if (usergroups[userid]) {
