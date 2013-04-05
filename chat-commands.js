@@ -527,6 +527,38 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		return false;
 		break;
 
+	case 'burn':
+	case 'incinerate':
+		if (!target) return parseCommand(user, '?', cmd, room, socket);
+		var targets = splitTarget(target);
+		var targetUser = targets[0];
+		if (!targetUser) {
+		emit(socket, 'console', 'User '+targets[2]+' not found.');
+		return false;
+		}
+		if (!user.can('mute', targetUser)) {
+		emit(socket, 'console', '/mute - Access denied.');
+		return false;
+		}
+
+		logModCommand(room,''+targetUser.name+' was incinerated by '+user.name+'.' + (targets[1] ? " (" + targets[1] + ")" : ""));
+		targetUser.emit('message', user.name+' has incinerated you. '+targets[1]);
+		var alts = targetUser.getAlts();
+		if (alts.length) logModCommand(room,""+targetUser.name+"'s alts were also incinerated: "+alts.join(", "));
+
+		targetUser.muted = true;
+		rooms.lobby.sendIdentity(targetUser);
+		for (var i=0; i<alts.length; i++) {
+		var targetAlt = Users.get(alts[i]);
+		if (targetAlt) {
+		targetAlt.muted = true;
+		rooms.lobby.sendIdentity(targetAlt);
+		}
+	}
+
+	return false;
+	break;
+
 	case 'mute':
 	case 'm':
 		if (!target) return parseCommand(user, '?', cmd, room, socket);
@@ -1045,7 +1077,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 			'% <b>Driver</b> - The above, and they can also mute users and run tournaments<br />' +
 			'@ <b>Moderator</b> - The above, and they can ban users and check for alts<br />' +
 			'&amp; <b>Leader</b> - The above, and they can promote moderators and force ties<br />'+
-			'~ <b>Administrator</b> - They can do anything, like change what this message says THIS MESSAGE HAS BEEN RAPED BY OI AWESOME'+
+			'~ <b>Administrator</b> - They can do anything, like change what this message says'+
 			'</div>');
 		return false;
 		break;
