@@ -25,7 +25,17 @@ exports.BattleFormats = {
             ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
             banlist: ['Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water', 'Deoxys', 'Deoxys-Attack', 'Deoxys-Defense', 'Deoxys-Speed', 'Dialga', 'Giratina', 'Giratina-Origin', 'Groudon', 'Ho-oh', 'Kyogre', 'Kyurem', 'Kyurem-Black', 'Kyurem-White', 'Lugia', 'Manaphy', 'Mewtwo', 'Palkia', 'Rayquaza', 'Reshiram', 'Shaymin-Sky', 'Zekrom', 'Soul Dew']
         },
-
+	npmou: {
+	effectType: 'Format',
+	section: 'Nollans Pokemon Modifier',
+	name: "NPM OU",
+	mod: 'npm',
+	challengeShow: true,
+	searchShow: true,
+	isTeambuilderFormat: true,
+	ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+	banlist: ['Uber', 'Excadrill + Sand Rush', 'Garchomp + Mach Scale', 'Trickster']
+	},
 	nuv2: {
         effectType: 'Format',
         section: 'v2 Recreation Project',
