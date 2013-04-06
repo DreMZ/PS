@@ -290,5 +290,5 @@ stealthrock: {
                 },
                 target: "normal",
                 type: "Normal"
-                },
-        
+        },
+ };       
