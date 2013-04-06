@@ -42,21 +42,8 @@
                 basePower: 90,
     },
     "psyshock": {
-		num: 473,
-		accuracy: 100,
+	      inherit: true
 		basePower: 90,
-		category: "Special",
-		defensiveCategory: "Physical",
-		desc: "Deals damage to one adjacent target based on its Defense instead of Special Defense.",
-		shortDesc: "Damages target based on Defense, not Sp. Def.",
-		id: "psyshock",
-		isViable: true,
-		name: "Psyshock",
-		pp: 10,
-		priority: 0,
-		secondary: false,
-		target: "normal",
-		type: "Psychic"
 	},
 };  
  
