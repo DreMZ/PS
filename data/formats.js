@@ -33,7 +33,7 @@ exports.BattleFormats = {
 	challengeShow: true,
 	searchShow: true,
 	isTeambuilderFormat: true,
-	ruleset: ['Pokemon', 'Standard', 'Team Preview'],
+	ruleset: ['Pokemon', 'Standard DW', 'Team Preview'],
 	banlist: ['Uber', 'Excadrill + Sand Rush', 'Garchomp + Mach Scale', 'Trickster']
 	},
 	nuv2: {
