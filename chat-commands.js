@@ -1148,19 +1148,17 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		return false;
 		break;
 
-	case 'om':
-	case 'othermetas':
-	case '!om':
-	case '!othermetas':
+	case 'V2T':
+	case 'Version2Tiers':
+	case '!V2T':
+	case '!Version2Tiers':
 		showOrBroadcastStart(user, cmd, room, socket, message);
 		showOrBroadcast(user, cmd, room, socket,
-			'<div class="infobox">Information on the Other Metagames:<br />' +
-			'- <a href="http://www.smogon.com/forums/showthread.php?t=3463764" target="_blank">Balanced Hackmons</a><br />' +
-			'- <a href="http://www.smogon.com/forums/showthread.php?t=3471810" target="_blank">Dream World OU</a><br />' +
-			'- <a href="http://www.smogon.com/forums/showthread.php?t=3467120" target="_blank">Glitchmons</a><br />' +
-			'- <a href="http://www.smogon.com/sim/seasonal" target="_blank">Seasonal: Valentine Venture</a><br />' +
-			'- <a href="http://www.smogon.com/forums/showthread.php?t=3476469" target="_blank">Smogon Doubles</a><br />' +
-			'- <a href="http://www.smogon.com/forums/showthread.php?t=3471161" target="_blank">VGC 2013</a>' +
+			'<div class="infobox">Information on the Version 2 Tiers:<br />' +
+			'- <a href="http://piratepad.net/ep/pad/view/ro.QNn2uO9D/latest" target="_blank">NUV2 Changelog</a><br />' +
+			'- <a href="http://piratepad.net/ep/pad/view/ro.USTFAIHH/latest" target="_blank">RUV2 Changelog</a><br />' +
+			'- <a href="http://piratepad.net/ep/pad/view/ro.XBISbZVK/latest" target="_blank">UUV2 CHangelog</a><br />' +
+			'- <a href="http://www.smogon.com/forums/showthread.php?t=3481665" target="_blank">Smogon Thread</a><br />' +
 			'</div>');
 		return false;
 		break;
