@@ -26,5 +26,25 @@ exports.BattleFormatsData = {
 	ninetales: {
 		inherit: true,
 		tier: 'UU'
-	}
+	},
+	darmanitan: {
+		inherit: true,
+		tier: 'RU'
+	},
+	gligar: {
+		inherit: true,
+		tier: 'RU'
+	},
+	roselia: {
+		inherit: true,
+		tier: 'RU'
+	},
+	staraptor: {
+		inherit: true,
+		tier: 'UU'
+	},
+	gliscor: {
+		inherit: true,
+		tier: 'UU'
+	},
 };
