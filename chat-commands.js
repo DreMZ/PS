@@ -96,14 +96,14 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		if (canTalk(user, room)) return true;
 		break;
 
-	case '!birkal':
-	case 'birkal':
+	case '!theburgerking99':
+	case 'theburgerking99':
 		if (canTalk(user, room) && user.can('broadcast') && room.id === 'lobby') {
 			if (cmd === '!birkal') {
-				room.add('|c|'+user.getIdentity()+'|!birkal '+target, true);
+				room.add('|c|'+user.getIdentity()+'|!theburgerking99 '+target, true);
 			}
-			room.logEntry(user.name + ' used /birkal ' + target);
-			room.add('|c| Birkal|/me '+target, true);
+			room.logEntry(user.name + ' used /theburgerking99 ' + target);
+			room.add('|c| TheBurgerking99|/me '+target, true);
 			return false;
 		}
 		break;
