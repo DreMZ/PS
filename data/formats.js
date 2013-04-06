@@ -405,17 +405,19 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
-	        reversemeta: {
-        effectType: 'Format',
-        section: 'Other Metagames',
-        name: "Reverse!",
-        mod: 'reverse',
-        challengeShow: true,
-        searchShow: true,
-        isTeambuilderFormat: true,
-        ruleset: ['Sleep Clause', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'Pokemon', 'Team Preview'],
-        banlist: ['Eviolite', 'Illegal']
-        },
+	 reverse: {
+		name: "Reverse! Meta",
+		section: 'Other Metagames',
+
+		mod: 'reverse',
+		effectType: 'Format',
+		rated: true,
+		challengeShow: true,
+		searchShow: true,
+		isTeambuilderFormat: true,
+		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+		banlist: ['Eviolite']
+	},
                 randomtypingsOU: {
         effectType: 'Format',
         section: 'Other Metagames',
