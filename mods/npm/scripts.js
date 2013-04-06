@@ -3,10 +3,6 @@ exports.BattleScripts = {
         for (var i in this.data.FormatsData)
             this.data.FormatsData[i].dreamWorldRelease = true;
 }  
-                this.data.Pokedex.charizard.types = ["Fire","Dragon"];
-                this.data.Pokedex.charizard.abilities['DW'] = 'Levitate';
-               
-                this.data.Pokedex.blastoise.abilities['DW'] = 'Water Veil';
                 
                 this.data.Pokedex.clefable.types = ["Normal","Psychic"];
                 this.data.Pokedex.clefable.abilities['0'] = 'Friend Guard';
