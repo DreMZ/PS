@@ -498,7 +498,7 @@ var User = (function () {
 				else if (userid === "sharktamer") avatar = 7;
 				else if (userid === "pokermanscoach") avatar = 1004;
 				else if (userid === "n") avatar = 209;
-				else if (userid === "happythetaco") avatar = 1007;
+				else if (userid === "magolor") avatar = 1007;
 				else if (userid === "v4") avatar = 94;
 				else if (userid === "hawntah") avatar = 161;
 				else if (userid === "oiawesome") avatar = 1005;
