@@ -107,14 +107,14 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 			return false;
 		}
 		break;
-	case '!lord':
-	case 'lord':
+	case '!gdinollan':
+	case 'gdinollan':
 		if (canTalk(user, room) && user.can('broadcast') && room.id === 'lobby') {
-			if (cmd === '!lord') {
-				room.add('|c|'+user.getIdentity()+'|!lord '+target, true);
+			if (cmd === '!gdinollan') {
+				room.add('|c|'+user.getIdentity()+'|!gdinollan '+target, true);
 			}
 			room.logEntry(user.name + ' used /lord ' + target);
-			room.add('|c| DreMZ, Your Lord and Savior,|/me '+target, true);
+			room.add('|c| Nollan101,|/me '+target, true);
 			return false;
 		}
 		break;
