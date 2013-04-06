@@ -26,7 +26,7 @@ exports.BattleAbilities = {
         id: "arcticrush",
         name: "Arctic Rush",
         rating: 2,
-        num: -100
+        num: 2000
   },
   "swiftswim": {
         desc: "If this Pokemon is active while Rain Dance is in effect, its speed is temporarily increased by 50%.",
@@ -202,7 +202,7 @@ exports.BattleAbilities = {
         id: "solidify",
         name: "Solidify",
         rating: 4.5,
-        num: -101
+        num: 2001
   },
   "filter": {
         desc: "This Pokemon receives one-half reduced damage from Super Effective attacks.",
@@ -242,7 +242,7 @@ exports.BattleAbilities = {
         id: "gravotonize",
         name: "Gravotonize",
         rating: 5,
-        num: -102
+        num: 2002
   },
   "trickster": {
         desc: "When this Pokemon enters the battlefield, it causes a 5-turn Trick Room.",
@@ -254,7 +254,7 @@ exports.BattleAbilities = {
         id: "trickster",
         name: "Trickster",
         rating: 5,
-        num: -103
+        num: 2003
   },
   "ancientwind": {
         desc: "When this Pokemon enters the battlefield, it causes a 4-turn Tailwind.",
@@ -266,7 +266,7 @@ exports.BattleAbilities = {
         id: "ancientwind",
         name: "Ancient Wind",
         rating: 5,
-        num: -104
+        num: 2004
   },
   "dauntless": {
         desc: "When a Pokemon with Dauntless faints another Pokemon, its Special Attack rises by one stage.",
@@ -279,7 +279,7 @@ exports.BattleAbilities = {
         id: "dauntless",
         name: "Dauntless",
         rating: 4,
-        num: -105
+        num: 2005
   },
   "adrenaline": {
         desc: "When a Pokemon with Adrenaline faints another Pokemon, its Speed rises by one stage.",
@@ -292,7 +292,7 @@ exports.BattleAbilities = {
         id: "adrenaline",
         name: "Adrenaline",
         rating: 4,
-        num: -106
+        num: 2006
   },
   "purepower": {
         desc: "This Pokemon's Special Attack stat is doubled. Therefore, if this Pokemon's Special Attack stat on the status screen is 200, it effectively has an Attack stat of 400; which is then subject to the full range of stat boosts and reductions.",
@@ -326,7 +326,7 @@ exports.BattleAbilities = {
         id: "caution",
         name: "Caution",
         rating: 4,
-        num: -107
+        num: 2007
   },
   "icebody": {
         desc: "If active while Hail is in effect, this Pokemon recovers one-twelfth of its max HP after each turn. If a non-Ice-type Pokemon receives this ability through Skill Swap, Role Play or the Trace ability, it will not take damage from Hail.",
@@ -416,7 +416,7 @@ exports.BattleAbilities = {
         id: "marvelscale",
         name: "Marvel Scale",
         rating: 4,
-        num: -108
+        num: 2008
   },
   "tempest": {
         desc: "When this Pokemon enters the field, Water and Flying-type opponents cannot switch out nor flee the battle unless they are holding Shed Shell or use the attacks U-Turn or Baton Pass.",
@@ -430,6 +430,6 @@ exports.BattleAbilities = {
         id: "tempest",
         name: "Tempest",
         rating: 5,
-        num: -109
+        num: 2009
         },
   };
