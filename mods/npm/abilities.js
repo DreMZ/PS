@@ -431,4 +431,5 @@ exports.BattleAbilities = {
         name: "Tempest",
         rating: 5,
         num: -109
-  },
+        },
+  };
