@@ -50,5 +50,5 @@ exports.BattleFormatsData = {
 	gastrodon: {
 		inherit: true,
 		tier: 'UU'
-	}
+	},
 };
