@@ -125,7 +125,7 @@ exports.BattleFormats = {
 	},
 	vgcsingles: {
 		effectType: 'Format',
-		section: 'Standard Singles Formats',
+		section: 'Singles',
 		name: "VGC Singles",
 		rated: true,
 		challengeShow: true,
