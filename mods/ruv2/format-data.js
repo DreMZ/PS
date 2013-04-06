@@ -1,53 +1,53 @@
 exports.BattleFormatsData = {
-luxray: {
+	luxray: {
 		inherit: true,
 		tier: 'RU'
 	},
-jynx: {
+	jynx: {
 		inherit: true,
 		tier: 'NU'
 	},
-gothitelle: {
+	gothitelle: {
 		inherit: true,
 		tier: 'OU'
 	},
-archeops: {
+	archeops: {
 		inherit: true,
 		tier: 'OU'
 	},
-weavile: {
+	weavile: {
 		inherit: true,
 		tier: 'OU'
 	},
-politoed: {
+	politoed: {
 		inherit: true,
 		tier: 'UU'
 	},
-ninetales: {
+	ninetales: {
 		inherit: true,
 		tier: 'UU'
 	},
-darmanitan: {
+	darmanitan: {
 		inherit: true,
 		tier: 'RU'
 	},
-gligar: {
+	gligar: {
 		inherit: true,
 		tier: 'RU'
 	},
-roselia: {
+	roselia: {
 		inherit: true,
 		tier: 'RU'
 	},
-staraptor: {
+	staraptor: {
 		inherit: true,
 		tier: 'UU'
 	},
-gliscor: {
+	gliscor: {
 		inherit: true,
 		tier: 'UU'
 	},
-gastrodon: {
+	gastrodon: {
 		inherit: true,
 		tier: 'UU'
 	},
