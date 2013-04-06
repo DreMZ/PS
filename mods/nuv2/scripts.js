@@ -8,7 +8,7 @@ exports.BattleScripts = {
 			this.data.Learnsets.serperior.learnset.naturepower = ['5L0'];
 			this.data.Learnsets.serperior.learnset.earthpower = ['5L0'];
 			this.data.Learnsets.serperior.learnset.lunardance = ['5L0'];
-			this.data.Learnsets.serperior.learnset.psystrike = ['5L0'];
+			this.data.Learnsets.serperior.learnset.psyshock = ['5L0'];
 			this.data.Learnsets.serperior.learnset.aurasphere = ['5L0'];
 			
 			this.data.Learnsets.articuno.learnset.airslash = ['5L0'];
