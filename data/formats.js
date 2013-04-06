@@ -211,7 +211,7 @@ exports.BattleFormats = {
 
 		effectType: 'Format',
 		rated: true,
-		challengeShow: true,F
+		challengeShow: true,
 		// searchShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Team Preview', 'Standard Ubers'],
