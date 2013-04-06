@@ -1,6 +1,6 @@
 exports.BattleFormatsData = {
   luxray: {
-		inherit: true,
+  	inherit: true,
 		tier: 'RU'
 	},
 	jynx: {
@@ -15,7 +15,7 @@ exports.BattleFormatsData = {
 		inherit: true,
 		tier: 'OU'
 	},
-	Wweavile: {
+	weavile: {
 		inherit: true,
 		tier: 'OU'
 	},
@@ -24,6 +24,30 @@ exports.BattleFormatsData = {
 		tier: 'UU'
 	},
 	ninetales: {
+		inherit: true,
+		tier: 'UU'
+	},
+	darmanitan: {
+		inherit: true,
+		tier: 'RU'
+	},
+	gligar: {
+		inherit: true,
+		tier: 'RU'
+	},
+	roselia: {
+		inherit: true,
+		tier: 'RU'
+	},
+	staraptor: {
+		inherit: true,
+		tier: 'UU'
+	},
+	gliscor: {
+		inherit: true,
+		tier: 'UU'
+	},
+	gastrodon: {
 		inherit: true,
 		tier: 'UU'
 	}
