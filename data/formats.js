@@ -497,7 +497,16 @@ exports.BattleFormats = {
 		banlist: ['Illegal', 'Unreleased'],
 		mimicGlitch: true
 	},
+	testmod: {
+		name: "Testmod",
+		section: "Science!",
 
+		mod: 'testmod',
+		effectType: 'Format',
+		challengeShow: true,
+		ruleset: ['Pokemon', 'Team Preview'],
+		banlist: ['Uber']
+	},
 
 	// Rulesets
 	///////////////////////////////////////////////////////////////////
