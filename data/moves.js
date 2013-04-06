@@ -13650,7 +13650,6 @@ exports.BattleMovedex = {
 		},
 		secondary: {
 			chance: 100,
-			volatileStatus: 'leechseed',
 			self: {
 			boosts: {
 				atk: 6,
