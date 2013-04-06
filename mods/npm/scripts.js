@@ -2,7 +2,7 @@ exports.BattleScripts = {
     init: function() {
         for (var i in this.data.FormatsData)
             this.data.FormatsData[i].dreamWorldRelease = true;
-}  
+            },  
                 
                 this.data.Pokedex.clefable.types = ["Normal","Psychic"];
                 this.data.Pokedex.clefable.abilities['0'] = 'Friend Guard';
