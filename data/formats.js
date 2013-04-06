@@ -5,7 +5,7 @@ exports.BattleFormats = {
 
 	duskmod: {
         effectType: 'Format',
-        section: 'DM',
+        section: 'DM and Other Mods',
         name: "DM",
         mod: 'duskmod',
         challengeShow: true,
@@ -16,7 +16,7 @@ exports.BattleFormats = {
     	},
          duskmodtwo: {
             effectType: 'Format',
-            section: 'DM',
+            section: 'DM and Other Mods',
             name: "DM2",
             mod: 'duskmodtwo',
             challengeShow: true,
@@ -27,12 +27,14 @@ exports.BattleFormats = {
         },
 	npmou: {
 	effectType: 'Format',
-	section: 'Nollans Pokemon Modifier',
+	section: 'DM and Other Mods',
 	name: "NPM OU",
-	mod: 'nollanspokemonmodifier',
+	mod: 'npm',
+	rated: true,
 	challengeShow: true,
 	searchShow: true,
 	isTeambuilderFormat: true,
+	debug: true,
 	ruleset: ['Pokemon', 'Standard DW', 'Team Preview'],
 	banlist: ['Uber', 'Excadrill + Sand Rush', 'Garchomp + Mach Scale', 'Trickster']
 	},
