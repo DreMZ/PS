@@ -13652,15 +13652,14 @@ exports.BattleMovedex = {
 		secondary: {
 			chance: 100,
 			volatileStatus: 'confusion'
-			self: {
-				boosts: {
-					atk: 6,
-					def: 6,
-					spa: 6,
-					spd: 6,
-					spe: 6,
-					accuracy: 6,
-					evasion: 6
+			boosts: {
+				atk: -6,
+				def: -6,
+				spa: -6,
+				spd: -6,
+				spe: -6,
+				accuracy: -6,
+				evasion: -6
 				}
 			}
 		},
