@@ -29,7 +29,7 @@ exports.BattleFormats = {
 	effectType: 'Format',
 	section: 'Nollans Pokemon Modifier',
 	name: "NPM OU",
-	mod: 'npm',
+	mod: 'nollanspokemonmodifier,
 	challengeShow: true,
 	searchShow: true,
 	isTeambuilderFormat: true,
