@@ -191,6 +191,85 @@ exports.BattleScripts = {
                 this.data.Learnsets.dusknoir.learnset.superpower = ['5T'];
                 this.data.Learnsets.dusknoir.learnset.moonlight = ['5L0'];
                 
+                this.data.Pokedex.serperior.types = ["Grass","Dragon"];
+                this.data.Learnsets.serperior.learnset.dracometeor = ['5T'];
+                
+                this.data.Pokedex.emboar.types = ["Fire","Dark"];
+                this.data.Learnsets.emboar.learnset.crunch = ['5L0'];
+                this.data.Learnsets.emboar.learnset.suckerpunch = ['5L0'];
+                
+                this.data.Pokedex.musharna.types = ["Psychic","Ghost"];
+                this.data.Pokedex.musharna.abilities['1'] = 'Caution';
+                this.data.Learnsets.musharna.learnset.lunardance = ['5L0'];
+                
+                this.data.Learnsets.conkeldurr.learnset.pillarsmash = ['5L0'];
+                
+                this.data.Pokedex.darmanitan.types = ["Fire","Fighting"];
+                this.data.Pokedex.darmanitan.abilities['1'] = 'Reckless';
+                this.data.Learnsets.darmanitan.learnset.submission = ['5L0'];
+                
+                this.data.Pokedex.sigilyph.abilities['0'] = 'Ancient Wind';
+                
+                this.data.Pokedex.cofagrigus.types = ["Ghost","Steel"];
+                this.data.Learnsets.cofagrigus.learnset.flashcannon = ['5M'];
+                
+                this.data.Pokedex.gothitelle.types = ["Psychic","Dark"];
+                
+                this.data.Pokedex.reuniclus.abilities['0'] = 'Gravotonize';
+                
+                this.data.Pokedex.zoroark.types = ["Dark","Ghost"];
+                this.data.Pokedex.zoroark.abilities['DW'] = 'Dauntless';
+                
+                this.data.Pokedex.swanna.abilities['0'] = 'Water Veil';
+                
+                this.data.Pokedex.vanilluxe.abilities['1'] = 'Snow Warning';
+                
+                this.data.Learnsets.escavalier.learnset.drillrun = ['5T'];
+                this.data.Learnsets.escavalier.learnset.sharpen = ['5L0'];
+                
+                this.data.Learnsets.amoonguss.learnset.shieldbash = ['5L0'];
+                this.data.Learnsets.amoonguss.learnset.leechseed = ['5L0'];
+                
+                this.data.Pokedex.beheeyem.types = ["Psychic","Electric"];
+                this.data.Pokedex.beheeyem.abilities['0'] = 'Levitate';
+                this.data.Pokedex.beheeyem.abilities['1'] = 'Dauntless';
+                this.data.Learnsets.beheeyem.learnset.thunder = ['5M'];
+                this.data.Learnsets.beheeyem.learnset.lunardance = ['5L0'];
+                
+                this.data.Pokedex.beartic.types = ["Ice","Fighting"];
+                this.data.Pokedex.beartic.abilities['0'] = 'Arctic Rush';
+                this.data.Learnsets.beartic.learnset.drainpunch = ['5T'];
+                
+                this.data.Pokedex.cryogonal.types = ["Ice","Steel"];
+                
+                this.data.Pokedex.druddigon.types = ["Dragon","Rock"];
+                this.data.Pokedex.druddigon.abilities['0'] = 'Mach Scale';
+                this.data.Pokedex.druddigon.abilities['1'] = 'Solidify';
+                this.data.Pokedex.druddigon.abilities['DW'] = 'Marvel Scale';
+                this.data.Learnsets.druddigon.learnset.stoneedge = ['5M'];
+                this.data.Learnsets.druddigon.learnset.rockslide = ['5M'];
+                
+                this.data.Learnsets.bisharp.learnset.sharpen = ['5L0'];
+                
+                this.data.Learnsets.hydreigon.learnset.blackhole = ['5L0'];
+                
+                this.data.Pokedex.tornadustherian.abilities['0'] = 'Tempest';
+                
+                delete this.data.Learnsets.thundurus.learnset.nastyplot;
+                delete this.data.Learnsets.thundurus.learnset.swagger;
+                
+                delete this.data.Learnsets.thundurustherian.learnset.nastyplot;
+                delete this.data.Learnsets.thundurustherian.learnset.swagger;
+                
+                this.data.Pokedex.kyurem.abilities['0'] = 'Arctic Rush';
+                
+                this.data.Learnsets.kyuremblack.learnset.icepunch = ['5T'];
+                this.data.Learnsets.kyuremblack.learnset.thunderpunch = ['5T'];
+                this.data.Learnsets.kyuremblack.learnset.iceshard = ['5L0'];
+                
+                this.data.Pokedex.genesect.abilities['0'] = 'Compoundeyes';
+                this.data.Learnsets.genesect.learnset.lockon = ['5L0'];
+                delete this.data.Learnsets.genesect.learnset.zapcannon;
         }
 };
                 
