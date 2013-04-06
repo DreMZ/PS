@@ -99,7 +99,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 	case '!theburgerking99':
 	case 'theburgerking99':
 		if (canTalk(user, room) && user.can('broadcast') && room.id === 'lobby') {
-			if (cmd === '!birkal') {
+			if (cmd === '!theburgerking99') {
 				room.add('|c|'+user.getIdentity()+'|!theburgerking99 '+target, true);
 			}
 			room.logEntry(user.name + ' used /theburgerking99 ' + target);
