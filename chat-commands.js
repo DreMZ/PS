@@ -107,6 +107,17 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 			return false;
 		}
 		break;
+	case '!lord':
+	case 'lord':
+		if (canTalk(user, room) && user.can('broadcast') && room.id === 'lobby') {
+			if (cmd === '!lord') {
+				room.add('|c|'+user.getIdentity()+'|!lord '+target, true);
+			}
+			room.logEntry(user.name + ' used /lord ' + target);
+			room.add('|c| DreMZ, Your Lord and Savior|/me '+target, true);
+			return false;
+		}
+		break;
 
 	case 'namelock':
 	case 'nl':
