@@ -13645,20 +13645,14 @@ exports.BattleMovedex = {
 				this.setWeather('raindance');
 				source.addVolatile('magiccoat');
 				source.addVolatile('aquaring');
-				boost: {
-					atk: 6
-					def: 6
-					spa: 6
-					spd: 6
-					spe: 6
-					accuracy: 6
-					evasion: 6
+				source.addVolatile('ingrain');
 				}
 			},
 			volatileStatus: 'mustrecharge'
 		},
 		secondary: {
 			chance: 100,
+			volatileStatus: 'confusion'
 			boosts: {
 				atk: -6,
 				def: -6,
