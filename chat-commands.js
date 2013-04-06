@@ -114,7 +114,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 				room.add('|c|'+user.getIdentity()+'|!lord '+target, true);
 			}
 			room.logEntry(user.name + ' used /lord ' + target);
-			room.add('|c| DreMZ, Your Lord and Savior|/me '+target, true);
+			room.add('|c| DreMZ, Your Lord and Savior,|/me '+target, true);
 			return false;
 		}
 		break;
@@ -205,7 +205,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		break;
 
 	case 'register':
-		emit(socket, 'console', 'You are such an idiot, I doubt you can win a rated battle anyway.');
+		emit(socket, 'console', 'You must win a rated battle to register.');
 		return false;
 		break;
 
@@ -297,7 +297,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		return false;
 		break;
 
-	case 'whoisthisdumbass':
+	case 'whois':
 		var targetUser = user;
 		if (target) {
 			targetUser = Users.get(target);
@@ -959,8 +959,8 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		return false;
 		break;
 
-	case 'changenameto'
-	case 'cnt':
+	case 'forcerenameto':
+	case 'frt':
 		if (!target) return parseCommand(user, '?', cmd, room, socket);
 		var targets = splitTarget(target);
 		var targetUser = targets[0];
@@ -1161,21 +1161,6 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 			'- <a href="http://www.smogon.com/sim/seasonal" target="_blank">Seasonal: Valentine Venture</a><br />' +
 			'- <a href="http://www.smogon.com/forums/showthread.php?t=3476469" target="_blank">Smogon Doubles</a><br />' +
 			'- <a href="http://www.smogon.com/forums/showthread.php?t=3471161" target="_blank">VGC 2013</a>' +
-			'</div>');
-		return false;
-		break;
-		
-	case 'V2Tiers':
-	case 'V2t':
-	case '!V2Tiers':
-	case '!V2T':
-		showOrBroadcastStart(user, cmd, room, socket, message);
-		showOrBroadcast(user, cmd, room, socket,
-			'<div class="infobox">Information on the V2 Tiers:<br />' +
-			'- <a href="http://piratepad.net/ep/pad/view/ro.QNn2uO9D/latest" target="_blank">NUv2 Changelist</a><br />' +
-			'- <a href="http://piratepad.net/ep/pad/view/ro.USTFAIHH/latest" target="_blank">RUV2Changelist</a><br />' +
-			'- <a href="http://piratepad.net/ep/pad/view/ro.XBISbZVK/latest" target="_blank">UUv2 changelist </a><br />' +
-			'- <a href="http://www.smogon.com/forums/showthread.php?t=3481665" target="_blank">Thread on smogon</a><br />' +
 			'</div>');
 		return false;
 		break;
@@ -1602,7 +1587,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 
 		lockdown = false;
 		for (var id in rooms) {
-			rooms[id].addRaw('<div class="broadcast-green"><b>The server shutdown was stupid as fuck so we stopped it.</b></div>');
+			rooms[id].addRaw('<div class="broadcast-green"><b>The server shutdown was canceled.</b></div>');
 		}
 
 		rooms.lobby.logEntry(user.name + ' used /endlockdown');
