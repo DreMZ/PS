@@ -107,7 +107,7 @@ exports.BattleScripts = {
 			this.data.Learnsets.escavalier.learnset.superpower = ['5L0'];
 			this.data.Learnsets.escavalier.learnset.stoneedge = ['5L0'];
 			this.data.Learnsets.escavalier.learnset.meteormash = ['5L0'];
-			this.data.Learnsets.escavalier.learnset.bullletpunch = ['5L0'];
+			this.data.Learnsets.escavalier.learnset.bulletpunch = ['5L0'];
 
 			this.data.Learnsets.aerodactyl.learnset.bravebird = ['5L0'];
 			this.data.Learnsets.aerodactyl.learnset.uturn = ['5L0'];
