@@ -333,7 +333,7 @@ var BattlePokemon = (function() {
 		} else {
 			stat = Math.floor(stat / boostTable[-boost]);
 		}
-
+		
 		if (this.battle.getStatCallback) {
 			stat = this.battle.getStatCallback(stat, statName, this);
 		}
@@ -2110,6 +2110,8 @@ var Battle = (function() {
 		this.add('gametype', this.gameType);
 
 		var format = this.getFormat();
+		Tools.mod(format.mod).getBanlistTable(format); // fill in format ruleset
+
 		this.add('tier', format.name);
 		if (this.rated) {
 			this.add('rated');
