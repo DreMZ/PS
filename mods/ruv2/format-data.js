@@ -15,7 +15,7 @@ exports.BattleFormatsData = {
 		inherit: true,
 		tier: 'OU'
 	},
-	Wweavile: {
+	weavile: {
 		inherit: true,
 		tier: 'OU'
 	},
@@ -47,4 +47,8 @@ exports.BattleFormatsData = {
 		inherit: true,
 		tier: 'UU'
 	},
+	gastrodon: {
+		inherit: true,
+		tier: 'UU'
+	}
 };
