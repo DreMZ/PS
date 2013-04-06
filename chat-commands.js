@@ -1148,10 +1148,10 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		return false;
 		break;
 
-	case 'V2T':
-	case 'Version2Tiers':
-	case '!V2T':
-	case '!Version2Tiers':
+	case 'v2t':
+	case 'version2tiers':
+	case '!v2t':
+	case '!version2tiers':
 		showOrBroadcastStart(user, cmd, room, socket, message);
 		showOrBroadcast(user, cmd, room, socket,
 			'<div class="infobox">Information on the Version 2 Tiers:<br />' +
