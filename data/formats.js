@@ -211,7 +211,7 @@ exports.BattleFormats = {
 
 		effectType: 'Format',
 		rated: true,
-		challengeShow: true,
+		challengeShow: true,F
 		// searchShow: true,
 		isTeambuilderFormat: true,
 		ruleset: ['Pokemon', 'Team Preview', 'Standard Ubers'],
@@ -415,17 +415,14 @@ exports.BattleFormats = {
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
 		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
 	},
-	 reverse: {
-		name: "Reverse! Meta",
-		section: 'Other Metagames',
+	testmod: {
+		name: "Testmod",
+		section: "Science!",
 
-		mod: 'reverse',
+		mod: 'testmod',
 		effectType: 'Format',
-		rated: true,
 		challengeShow: true,
-		searchShow: true,
-		isTeambuilderFormat: true,
-		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+		ruleset: ['Pokemon', 'Team Preview'],
 		banlist: ['Eviolite']
 	},
                 randomtypingsOU: {
@@ -497,14 +494,14 @@ exports.BattleFormats = {
 		banlist: ['Illegal', 'Unreleased'],
 		mimicGlitch: true
 	},
-	testmod: {
-		name: "Testmod",
+	reverse: {
+		name: "Reverse!",
 		section: "Science!",
 
-		mod: 'testmod',
+		mod: 'reverse',
 		effectType: 'Format',
 		challengeShow: true,
-		ruleset: ['Pokemon', 'Team Preview'],
+		ruleset: ['Pokemon', 'Team Preview', 'Standard Ubers'],
 		banlist: ['Uber']
 	},
 
