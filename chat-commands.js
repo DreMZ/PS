@@ -96,29 +96,6 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 		if (canTalk(user, room)) return true;
 		break;
 
-	case '!theburgerking99':
-	case 'theburgerking99':
-		if (canTalk(user, room) && user.can('broadcast') && room.id === 'lobby') {
-			if (cmd === '!theburgerking99') {
-				room.add('|c|'+user.getIdentity()+'|!theburgerking99 '+target, true);
-			}
-			room.logEntry(user.name + ' used /theburgerking99 ' + target);
-			room.add('|c| TheBurgerking99|/me '+target, true);
-			return false;
-		}
-		break;
-	case '!gdinollan':
-	case 'gdinollan':
-		if (canTalk(user, room) && user.can('broadcast') && room.id === 'lobby') {
-			if (cmd === '!gdinollan') {
-				room.add('|c|'+user.getIdentity()+'|!gdinollan '+target, true);
-			}
-			room.logEntry(user.name + ' used /lord ' + target);
-			room.add('|c| Nollan101,|/me '+target, true);
-			return false;
-		}
-		break;
-
 	case 'namelock':
 	case 'nl':
 		if(!target) {
