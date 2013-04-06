@@ -114,7 +114,7 @@ function parseCommandLocal(user, cmd, target, room, socket, message) {
 				room.add('|c|'+user.getIdentity()+'|!lord '+target, true);
 			}
 			room.logEntry(user.name + ' used /lord ' + target);
-			room.add('|c| DreMZ, Your Lord and Savior|/me '+target, true);
+			room.add('|c| DreMZ, Your Lord and Savior,|/me '+target, true);
 			return false;
 		}
 		break;
