@@ -124,6 +124,8 @@ exports.BattleScripts = {
                 this.data.Pokedex.druddigon.abilities['1'] = 'Solidify';
                 this.data.Pokedex.druddigon.abilities['DW'] = 'Marvel Scale';
                 
+                this.data.Learnsets.bisharp.learnset.sharpen = ['5L0'];
+                
                 this.data.Pokedex.tornadustherian.abilities['0'] = 'Tempest';
                 
                 this.data.Pokedex.kyurem.abilities['0'] = 'Arctic Rush';
